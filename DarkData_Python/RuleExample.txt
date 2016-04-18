@@ -1,0 +1,20 @@
+@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.
+@prefix ddmeasurement: <http://darkdata.tw.rpi.edu/data/measurement/>.
+@prefix ddtime: <http://darkdata.tw.rpi.edu/data/time-interval/>.
+@prefix ddspatial:<http://darkdata.tw.rpi.edu/data/spatial-resolution/>.
+@prefix ddinstrument:<http://darkdata.tw.rpi.edu/data/instrument/>.
+
+[ex-rule0:
+ (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
+ (?datafield2 dd:measurement ddmeasurement:Angstrom+Exponent),
+ (?datafield1 dd:timeInterval ddtime:daily),
+ (?datafield2 dd:timeInterval ddtime:daily),
+ (?datafield1 dd:instrument ddinstrument:MODIS),
+ (?datafield2 dd:instrument ddinstrument:MODIS),
+ (?datafield1 dd:spatialResolution ddspatial:1+deg.),
+ (?datafield2 dd:spatialResolution ddspatial:1+deg.)
+ (?datafield1 dd:eventType dd:Hurricane)
+ ->
+ (?datafield1 dd:hasService dd:StSc)
+ (?datafield2 dd:hasService dd:StSc)
+]
