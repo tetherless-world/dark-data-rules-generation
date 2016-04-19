@@ -14,8 +14,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no1:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -25,11 +24,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:IaSc),
-(?datafield2 dd:hasService dd:IaSc)
+(?candidate dd:candidateService dd:IaSc)
 ]
 [Rule_no2:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -39,11 +37,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:IaSc),
-(?datafield2 dd:hasService dd:IaSc)
+(?candidate dd:candidateService dd:IaSc)
 ]
 [Rule_no3:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -55,8 +52,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:IaSc),
-(?datafield2 dd:hasService dd:IaSc)
+(?candidate dd:candidateService dd:IaSc)
 ]
 [Rule_no4:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -66,11 +62,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:IaSc),
-(?datafield2 dd:hasService dd:IaSc)
+(?candidate dd:candidateService dd:IaSc)
 ]
 [Rule_no5:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -80,11 +75,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no6:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -94,11 +88,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no7:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -108,11 +101,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no8:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -124,8 +116,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no9:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -135,11 +126,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no10:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -149,11 +139,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no11:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -163,11 +152,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no12:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -179,8 +167,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no13:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -192,8 +179,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no14:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -203,11 +189,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no15:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -217,11 +202,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no16:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -233,8 +217,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no17:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -244,11 +227,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no18:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -258,11 +240,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no19:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -274,8 +255,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no20:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -285,11 +265,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no21:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -299,11 +278,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no22:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -315,8 +293,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no23:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -328,8 +305,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no24:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -341,8 +317,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no25:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -354,8 +329,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no26:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -367,8 +341,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no27:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -378,11 +351,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no28:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -392,11 +364,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no29:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -406,11 +377,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no30:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -420,11 +390,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no31:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -434,11 +403,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no32:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -448,11 +416,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no33:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -462,11 +429,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no34:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -476,11 +442,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no35:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -490,11 +455,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no36:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -504,11 +468,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no37:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -518,11 +481,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no38:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -532,11 +494,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no39:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -546,11 +507,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:IaSc),
-(?datafield2 dd:hasService dd:IaSc)
+(?candidate dd:candidateService dd:IaSc)
 ]
 [Rule_no40:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -560,11 +520,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no41:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -574,11 +533,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no42:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -588,11 +546,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no43:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -602,11 +559,10 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no44:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -618,8 +574,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no45:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -631,8 +586,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no46:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -644,8 +598,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no47:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -657,8 +610,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no48:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -670,8 +622,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no49:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -681,11 +632,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no50:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -695,11 +645,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no51:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -711,8 +660,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no52:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -722,11 +670,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no53:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -736,11 +683,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no54:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -750,11 +696,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no55:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -764,11 +709,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no56:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -778,11 +722,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no57:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -792,11 +735,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no58:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -806,11 +748,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no59:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -820,11 +761,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no60:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -836,8 +776,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no61:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -847,11 +786,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no62:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -861,11 +799,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no63:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -875,11 +812,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no64:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -891,8 +827,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no65:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -904,8 +839,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no66:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -915,11 +849,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no67:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -929,11 +862,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no68:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -943,11 +875,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no69:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -957,11 +888,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no70:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -973,8 +903,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no71:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -986,8 +915,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no72:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -997,11 +925,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no73:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1011,11 +938,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no74:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1025,11 +951,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no75:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1039,11 +964,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no76:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1055,8 +979,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no77:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1066,11 +989,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no78:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1080,11 +1002,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no79:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1096,8 +1017,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no80:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1107,11 +1027,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no81:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1121,11 +1040,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no82:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1137,8 +1055,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no83:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1148,11 +1065,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no84:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1162,11 +1078,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no85:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1176,11 +1091,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no86:
 (?datafield1 dd:measurement ddmeasurement:Latent+Heat+Flux),
@@ -1192,8 +1106,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.25+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.25+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no87:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1205,8 +1118,7 @@
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:5000+m)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no88:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1218,8 +1130,7 @@
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no89:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1231,8 +1142,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no90:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1244,8 +1154,7 @@
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no91:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1255,11 +1164,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:spatialResolution ddspatial:5000+m)
+(?datafield2 dd:spatialResolution ddspatial:5000+m),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no92:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1269,11 +1177,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no93:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1283,11 +1190,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no94:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1297,11 +1203,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no95:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1311,11 +1216,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no96:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1325,11 +1229,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no97:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1339,11 +1242,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no98:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1353,11 +1255,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no99:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1369,8 +1270,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no100:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1382,8 +1282,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no101:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1393,11 +1292,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no102:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1407,11 +1305,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no103:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1423,8 +1320,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no104:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1434,11 +1330,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no105:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1448,11 +1343,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no106:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1462,11 +1356,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no107:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1476,11 +1369,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no108:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1490,11 +1382,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no109:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1504,11 +1395,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no110:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1520,8 +1410,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no111:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1533,8 +1422,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no112:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1546,8 +1434,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no113:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1559,8 +1446,7 @@
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no114:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1570,11 +1456,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no115:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1584,11 +1469,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no116:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1598,11 +1482,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no117:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1612,11 +1495,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no118:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1626,11 +1508,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no119:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1640,11 +1521,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no120:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1654,11 +1534,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no121:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1668,11 +1547,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no122:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1682,11 +1560,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Hurricane
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:Hurricane)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no123:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1696,11 +1573,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no124:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1710,11 +1586,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
-(?datafield1 dd:eventType dd:Volcano
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+(?candidate dd:candidateEvent dd:VolcanicEruption)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no125:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1726,8 +1601,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no126:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1739,8 +1613,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no127:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1752,8 +1625,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no128:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1765,8 +1637,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no129:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1778,8 +1649,7 @@
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no130:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1789,11 +1659,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no131:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1803,11 +1672,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no132:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1817,11 +1685,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no133:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1831,11 +1698,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no134:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1845,11 +1711,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no135:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1861,8 +1726,7 @@
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no136:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1874,8 +1738,7 @@
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no137:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1887,8 +1750,7 @@
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:5600+m)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no138:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1900,8 +1762,7 @@
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:5600+m)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no139:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1911,11 +1772,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no140:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1925,11 +1785,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no141:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1939,11 +1798,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:spatialResolution ddspatial:5600+m)
+(?datafield2 dd:spatialResolution ddspatial:5600+m),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no142:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1953,11 +1811,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:5600+m)
+(?datafield2 dd:spatialResolution ddspatial:5600+m),
 (?datafield1 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no143:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1967,11 +1824,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no144:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1981,11 +1837,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no145:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1995,11 +1850,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no146:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -2009,11 +1863,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no147:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -2023,11 +1876,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no148:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -2037,11 +1889,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no149:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -2051,11 +1902,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no150:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -2065,11 +1915,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no151:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -2079,11 +1928,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no152:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -2093,11 +1941,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no153:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -2107,11 +1954,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no154:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -2121,11 +1967,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no155:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -2135,11 +1980,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no156:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -2149,11 +1993,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no157:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -2163,11 +2006,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:StSc),
-(?datafield2 dd:hasService dd:StSc)
+(?candidate dd:candidateService dd:StSc)
 ]
 [Rule_no158:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -2177,11 +2019,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no159:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -2191,11 +2032,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no160:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -2205,11 +2045,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:spatialResolution ddspatial:5000+m)
+(?datafield2 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no161:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -2219,11 +2058,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no162:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -2233,11 +2071,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no163:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2247,11 +2084,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no164:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2261,11 +2097,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no165:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2275,11 +2110,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no166:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2289,11 +2123,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no167:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2303,11 +2136,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no168:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -2317,11 +2149,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no169:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -2331,11 +2162,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no170:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -2345,11 +2175,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:ArAvSc),
-(?datafield2 dd:hasService dd:ArAvSc)
+(?candidate dd:candidateService dd:ArAvSc)
 ]
 [Rule_no171:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2359,11 +2188,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no172:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2373,11 +2201,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no173:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2387,11 +2214,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiTmAvMp),
-(?datafield2 dd:hasService dd:DiTmAvMp)
+(?candidate dd:candidateService dd:DiTmAvMp)
 ]
 [Rule_no174:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2401,11 +2227,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:spatialResolution ddspatial:5600+m)
+(?datafield2 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:DiArAv),
-(?datafield2 dd:hasService dd:DiArAv)
+(?candidate dd:candidateService dd:DiArAv)
 ]
 [Rule_no175:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2415,11 +2240,10 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:5600+m)
+(?datafield2 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]
 [Rule_no176:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2429,9 +2253,8 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:processingLevel 3)
 ->
-(?datafield1 dd:hasService dd:CoMp),
-(?datafield2 dd:hasService dd:CoMp)
+(?candidate dd:candidateService dd:CoMp)
 ]

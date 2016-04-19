@@ -33,8 +33,7 @@ for i in range(0,len(data['Sheet1'])):
             #+"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level1'][i]))+")"+"\n"+
             #"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level2'][i]))+")"+"\n"
             +"->"+"\n"+
-            "(?datafield1 dd:hasService dd:"+data['Sheet1']['Service'][i]+"),"+"\n"+
-            "(?datafield2 dd:hasService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
+            "(?candidate dd:candidateService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
             ))
         elif(np.isnan(data['Sheet1']['Processing+Level1'][i])):
             f.write(str("[Rule_no"+str(i)+":"+"\n"+"(?datafield1 dd:measurement ddmeasurement:"+data['Sheet1']['Measurement1'][i]+"),"+"\n"+
@@ -44,12 +43,11 @@ for i in range(0,len(data['Sheet1'])):
             "(?datafield1 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval1'][i]+"),"+"\n"+
             "(?datafield2 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval2'][i]+"),"+"\n"+
             "(?datafield1 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution1'][i]+"),"+"\n"+
-            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+")"+"\n"
+            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+"),"+"\n"
             #+"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level1'][i]))+")"+"\n"+
             +"(?datafield2 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level2'][i]))+")"+"\n"
             +"->"+"\n"+
-            "(?datafield1 dd:hasService dd:"+data['Sheet1']['Service'][i]+"),"+"\n"+
-            "(?datafield2 dd:hasService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
+            "(?candidate dd:candidateService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
             ))
         elif(np.isnan(data['Sheet1']['Processing+Level2'][i])):
             f.write(str("[Rule_no"+str(i)+":"+"\n"+"(?datafield1 dd:measurement ddmeasurement:"+data['Sheet1']['Measurement1'][i]+"),"+"\n"+
@@ -59,12 +57,11 @@ for i in range(0,len(data['Sheet1'])):
             "(?datafield1 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval1'][i]+"),"+"\n"+
             "(?datafield2 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval2'][i]+"),"+"\n"+
             "(?datafield1 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution1'][i]+"),"+"\n"+
-            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+")"+"\n"
+            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+"),"+"\n"
             +"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level1'][i]))+")"+"\n"
             #"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level2'][i]))+")"+"\n"
             +"->"+"\n"+
-            "(?datafield1 dd:hasService dd:"+data['Sheet1']['Service'][i]+"),"+"\n"+
-            "(?datafield2 dd:hasService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
+            "(?candidate dd:candidateService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
             ))
     else:
         if(np.isnan(data['Sheet1']['Processing+Level1'][i]) and np.isnan(data['Sheet1']['Processing+Level2'][i])):
@@ -75,13 +72,12 @@ for i in range(0,len(data['Sheet1'])):
             "(?datafield1 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval1'][i]+"),"+"\n"+
             "(?datafield2 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval2'][i]+"),"+"\n"+
             "(?datafield1 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution1'][i]+"),"+"\n"+
-            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+")"+"\n"
+            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+"),"+"\n"
             #+"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level1'][i]))+")"+"\n"+
             #"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level2'][i]))+")"+"\n"
-            "(?datafield1 dd:eventType dd:"+data['Sheet1']['Event+Type'][i]+"\n"
+            "(?candidate dd:candidateEvent dd:"+data['Sheet1']['Event+Type'][i]+")"+"\n"
             +"->"+"\n"+
-            "(?datafield1 dd:hasService dd:"+data['Sheet1']['Service'][i]+"),"+"\n"+
-            "(?datafield2 dd:hasService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
+            "(?candidate dd:candidateService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
             ))
         elif(np.isnan(data['Sheet1']['Processing+Level1'][i])):
             f.write(str("[Rule_no"+str(i)+":"+"\n"+"(?datafield1 dd:measurement ddmeasurement:"+data['Sheet1']['Measurement1'][i]+"),"+"\n"+
@@ -91,13 +87,12 @@ for i in range(0,len(data['Sheet1'])):
             "(?datafield1 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval1'][i]+"),"+"\n"+
             "(?datafield2 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval2'][i]+"),"+"\n"+
             "(?datafield1 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution1'][i]+"),"+"\n"+
-            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+")"+"\n"
+            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+"),"+"\n"
             #+"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level1'][i]))+")"+"\n"+
-            +"(?datafield2 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level2'][i]))+")"+"\n"+
-            "(?datafield1 dd:eventType dd:"+data['Sheet1']['Event+Type'][i]+"\n"
+            +"(?datafield2 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level2'][i]))+"),"+"\n"+
+            "(?candidate dd:candidateEvent dd:"+data['Sheet1']['Event+Type'][i]+")"+"\n"
             +"->"+"\n"+
-            "(?datafield1 dd:hasService dd:"+data['Sheet1']['Service'][i]+"),"+"\n"+
-            "(?datafield2 dd:hasService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
+            "(?candidate dd:candidateService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
             ))
         elif(np.isnan(data['Sheet1']['Processing+Level2'][i])):
             f.write(str("[Rule_no"+str(i)+":"+"\n"+"(?datafield1 dd:measurement ddmeasurement:"+data['Sheet1']['Measurement1'][i]+"),"+"\n"+
@@ -107,11 +102,10 @@ for i in range(0,len(data['Sheet1'])):
             "(?datafield1 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval1'][i]+"),"+"\n"+
             "(?datafield2 dd:timeInterval ddtime:"+data['Sheet1']['Time_Interval2'][i]+"),"+"\n"+
             "(?datafield1 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution1'][i]+"),"+"\n"+
-            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+")"+"\n"
-            +"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level1'][i]))+")"+"\n"
+            "(?datafield2 dd:spatialResolution ddspatial:"+data['Sheet1']['Spatial_Resolution2'][i]+"),"+"\n"
+            +"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level1'][i]))+"),"+"\n"
             #"(?datafield1 dd:processingLevel "+str(int(data['Sheet1']['Processing+Level2'][i]))+")"+"\n"
-            +"(?datafield1 dd:eventType dd:"+data['Sheet1']['Event+Type'][i]+"\n"
+            +"(?candidate dd:candidateEvent dd:"+data['Sheet1']['Event+Type'][i]+")"+"\n"
             +"->"+"\n"+
-            "(?datafield1 dd:hasService dd:"+data['Sheet1']['Service'][i]+"),"+"\n"+
-            "(?datafield2 dd:hasService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
+            "(?candidate dd:candidateService dd:"+data['Sheet1']['Service'][i]+")"+"\n"+"]"+"\n"
             ))
