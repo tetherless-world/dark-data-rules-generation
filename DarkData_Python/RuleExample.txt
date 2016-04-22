@@ -13,8 +13,13 @@
  (?datafield2 dd:instrument ddinstrument:MODIS),
  (?datafield1 dd:spatialResolution ddspatial:1+deg.),
  (?datafield2 dd:spatialResolution ddspatial:1+deg.)
- (?datafield1 dd:eventType dd:Hurricane)
+ (?candidate dd:candidateEvent ?event),
+ (?event rdf:type dd:Hurricane),
+ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
  ->
- (?datafield1 dd:hasService dd:StSc)
- (?datafield2 dd:hasService dd:StSc)
+ (?candidate dd:compatibilityAssertion ?assertion),
+ (?assertion rdf:type dd:CompatibilityAssertion),
+ (?assertion dd:compatibilityValue dd:strong_compatibility),
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double),
+ (?assertion dd:basisForAssertion <urn:rule/RuleExample.txt/<ex_rule0>)
 ]

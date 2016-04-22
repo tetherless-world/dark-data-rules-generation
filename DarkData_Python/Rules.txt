@@ -12,9 +12,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no0>)
 ]
 [Rule_no1:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -25,9 +30,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:IaSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no1>)
 ]
 [Rule_no2:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -38,9 +49,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:IaSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no2>)
 ]
 [Rule_no3:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -50,9 +67,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:IaSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no3>)
 ]
 [Rule_no4:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -63,9 +85,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:IaSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no4>)
 ]
 [Rule_no5:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -76,9 +103,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no5>)
 ]
 [Rule_no6:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -89,9 +121,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no6>)
 ]
 [Rule_no7:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -102,9 +140,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no7>)
 ]
 [Rule_no8:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -114,9 +158,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no8>)
 ]
 [Rule_no9:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -127,9 +176,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no9>)
 ]
 [Rule_no10:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -140,9 +194,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no10>)
 ]
 [Rule_no11:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -153,9 +213,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no11>)
 ]
 [Rule_no12:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -165,9 +231,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no12>)
 ]
 [Rule_no13:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -177,9 +248,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no13>)
 ]
 [Rule_no14:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -190,9 +266,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no14>)
 ]
 [Rule_no15:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -203,9 +284,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no15>)
 ]
 [Rule_no16:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -215,9 +301,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no16>)
 ]
 [Rule_no17:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -228,9 +319,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no17>)
 ]
 [Rule_no18:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -241,9 +338,15 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no18>)
 ]
 [Rule_no19:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -253,9 +356,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no19>)
 ]
 [Rule_no20:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -266,9 +374,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no20>)
 ]
 [Rule_no21:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -279,9 +392,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no21>)
 ]
 [Rule_no22:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -291,9 +409,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no22>)
 ]
 [Rule_no23:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -303,9 +426,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no23>)
 ]
 [Rule_no24:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -315,9 +443,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no24>)
 ]
 [Rule_no25:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -327,9 +460,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no25>)
 ]
 [Rule_no26:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -339,9 +477,14 @@
 (?datafield1 dd:timeInterval ddtime:daily),
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no26>)
 ]
 [Rule_no27:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -352,9 +495,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no27>)
 ]
 [Rule_no28:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -365,9 +513,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no28>)
 ]
 [Rule_no29:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -378,9 +531,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no29>)
 ]
 [Rule_no30:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -391,9 +549,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no30>)
 ]
 [Rule_no31:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -404,9 +567,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no31>)
 ]
 [Rule_no32:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -417,9 +585,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no32>)
 ]
 [Rule_no33:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -430,9 +603,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no33>)
 ]
 [Rule_no34:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -443,9 +621,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no34>)
 ]
 [Rule_no35:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -456,9 +639,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no35>)
 ]
 [Rule_no36:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -469,9 +657,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no36>)
 ]
 [Rule_no37:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -482,9 +675,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no37>)
 ]
 [Rule_no38:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -495,9 +693,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no38>)
 ]
 [Rule_no39:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -508,9 +711,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:IaSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no39>)
 ]
 [Rule_no40:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -521,9 +729,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no40>)
 ]
 [Rule_no41:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -534,9 +747,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no41>)
 ]
 [Rule_no42:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -547,9 +765,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no42>)
 ]
 [Rule_no43:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -560,9 +783,14 @@
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no43>)
 ]
 [Rule_no44:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -572,9 +800,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no44>)
 ]
 [Rule_no45:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -584,9 +817,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no45>)
 ]
 [Rule_no46:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -596,9 +834,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no46>)
 ]
 [Rule_no47:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -608,9 +851,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no47>)
 ]
 [Rule_no48:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -620,9 +868,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no48>)
 ]
 [Rule_no49:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -633,9 +886,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no49>)
 ]
 [Rule_no50:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -646,9 +905,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no50>)
 ]
 [Rule_no51:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -658,9 +923,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no51>)
 ]
 [Rule_no52:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -671,9 +941,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no52>)
 ]
 [Rule_no53:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -684,9 +959,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no53>)
 ]
 [Rule_no54:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -697,9 +977,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no54>)
 ]
 [Rule_no55:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -710,9 +995,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no55>)
 ]
 [Rule_no56:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -723,9 +1013,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no56>)
 ]
 [Rule_no57:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -736,9 +1031,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no57>)
 ]
 [Rule_no58:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -749,9 +1049,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no58>)
 ]
 [Rule_no59:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -762,9 +1068,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no59>)
 ]
 [Rule_no60:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -774,9 +1086,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no60>)
 ]
 [Rule_no61:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -787,9 +1104,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no61>)
 ]
 [Rule_no62:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -800,9 +1122,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no62>)
 ]
 [Rule_no63:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -813,9 +1141,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no63>)
 ]
 [Rule_no64:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -825,9 +1159,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no64>)
 ]
 [Rule_no65:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -837,9 +1176,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no65>)
 ]
 [Rule_no66:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -850,9 +1194,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no66>)
 ]
 [Rule_no67:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -863,9 +1212,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no67>)
 ]
 [Rule_no68:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -876,9 +1230,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no68>)
 ]
 [Rule_no69:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -889,9 +1249,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no69>)
 ]
 [Rule_no70:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -901,9 +1267,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no70>)
 ]
 [Rule_no71:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -913,9 +1284,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no71>)
 ]
 [Rule_no72:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -926,9 +1302,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no72>)
 ]
 [Rule_no73:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -939,9 +1320,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no73>)
 ]
 [Rule_no74:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -952,9 +1338,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:negative_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no74>)
 ]
 [Rule_no75:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -965,9 +1357,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:negative_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no75>)
 ]
 [Rule_no76:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -977,9 +1375,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no76>)
 ]
 [Rule_no77:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -990,9 +1393,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:negative_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no77>)
 ]
 [Rule_no78:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1003,9 +1412,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:negative_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no78>)
 ]
 [Rule_no79:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1015,9 +1430,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no79>)
 ]
 [Rule_no80:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1028,9 +1448,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:negative_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no80>)
 ]
 [Rule_no81:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1041,9 +1467,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:negative_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no81>)
 ]
 [Rule_no82:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1053,9 +1485,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no82>)
 ]
 [Rule_no83:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1066,9 +1503,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no83>)
 ]
 [Rule_no84:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1079,9 +1521,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no84>)
 ]
 [Rule_no85:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1092,9 +1539,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no85>)
 ]
 [Rule_no86:
 (?datafield1 dd:measurement ddmeasurement:Latent+Heat+Flux),
@@ -1104,9 +1556,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.25+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.25+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.25+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no86>)
 ]
 [Rule_no87:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1116,9 +1573,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:spatialResolution ddspatial:5000+m)
+(?datafield2 dd:spatialResolution ddspatial:5000+m),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no87>)
 ]
 [Rule_no88:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1128,9 +1590,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no88>)
 ]
 [Rule_no89:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1140,9 +1607,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no89>)
 ]
 [Rule_no90:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1152,9 +1624,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no90>)
 ]
 [Rule_no91:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1165,9 +1642,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:5000+m),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no91>)
 ]
 [Rule_no92:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1178,9 +1660,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no92>)
 ]
 [Rule_no93:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -1191,9 +1678,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no93>)
 ]
 [Rule_no94:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1204,9 +1696,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no94>)
 ]
 [Rule_no95:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1217,9 +1714,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no95>)
 ]
 [Rule_no96:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1230,9 +1733,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no96>)
 ]
 [Rule_no97:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1243,9 +1752,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no97>)
 ]
 [Rule_no98:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1256,9 +1771,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no98>)
 ]
 [Rule_no99:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1268,9 +1789,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no99>)
 ]
 [Rule_no100:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1280,9 +1806,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no100>)
 ]
 [Rule_no101:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1293,9 +1824,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no101>)
 ]
 [Rule_no102:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1306,9 +1843,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no102>)
 ]
 [Rule_no103:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1318,9 +1861,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no103>)
 ]
 [Rule_no104:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1331,9 +1879,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no104>)
 ]
 [Rule_no105:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1344,9 +1898,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no105>)
 ]
 [Rule_no106:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1357,9 +1917,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no106>)
 ]
 [Rule_no107:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1370,9 +1936,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no107>)
 ]
 [Rule_no108:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1383,9 +1955,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no108>)
 ]
 [Rule_no109:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1396,9 +1974,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no109>)
 ]
 [Rule_no110:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1408,9 +1992,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no110>)
 ]
 [Rule_no111:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1420,9 +2009,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no111>)
 ]
 [Rule_no112:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1432,9 +2026,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no112>)
 ]
 [Rule_no113:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1444,9 +2043,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no113>)
 ]
 [Rule_no114:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1457,9 +2061,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no114>)
 ]
 [Rule_no115:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1470,9 +2079,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no115>)
 ]
 [Rule_no116:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1483,9 +2097,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no116>)
 ]
 [Rule_no117:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1496,9 +2115,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no117>)
 ]
 [Rule_no118:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -1509,9 +2133,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no118>)
 ]
 [Rule_no119:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1522,9 +2151,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no119>)
 ]
 [Rule_no120:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1535,9 +2169,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no120>)
 ]
 [Rule_no121:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1548,9 +2187,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no121>)
 ]
 [Rule_no122:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1561,9 +2206,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:Hurricane)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no122>)
 ]
 [Rule_no123:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1574,9 +2225,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no123>)
 ]
 [Rule_no124:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1587,9 +2244,15 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?candidate dd:candidateEvent dd:VolcanicEruption)
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no124>)
 ]
 [Rule_no125:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1599,9 +2262,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no125>)
 ]
 [Rule_no126:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1611,9 +2279,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no126>)
 ]
 [Rule_no127:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1623,9 +2296,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:0.5+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no127>)
 ]
 [Rule_no128:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1635,9 +2313,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no128>)
 ]
 [Rule_no129:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1647,9 +2330,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:spatialResolution ddspatial:1+deg.)
+(?datafield2 dd:spatialResolution ddspatial:1+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no129>)
 ]
 [Rule_no130:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1660,9 +2348,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no130>)
 ]
 [Rule_no131:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1673,9 +2366,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no131>)
 ]
 [Rule_no132:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -1686,9 +2384,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no132>)
 ]
 [Rule_no133:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1699,9 +2402,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no133>)
 ]
 [Rule_no134:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1712,9 +2420,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no134>)
 ]
 [Rule_no135:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1724,9 +2437,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no135>)
 ]
 [Rule_no136:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1736,9 +2454,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:0.05+deg.)
+(?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no136>)
 ]
 [Rule_no137:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1748,9 +2471,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:spatialResolution ddspatial:5600+m)
+(?datafield2 dd:spatialResolution ddspatial:5600+m),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no137>)
 ]
 [Rule_no138:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1760,9 +2488,14 @@
 (?datafield1 dd:timeInterval ddtime:monthly),
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:spatialResolution ddspatial:5600+m)
+(?datafield2 dd:spatialResolution ddspatial:5600+m),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no138>)
 ]
 [Rule_no139:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1773,9 +2506,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no139>)
 ]
 [Rule_no140:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1786,9 +2524,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no140>)
 ]
 [Rule_no141:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1799,9 +2542,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no141>)
 ]
 [Rule_no142:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -1812,9 +2560,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield1 dd:processingLevel 3)
+(?datafield1 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no142>)
 ]
 [Rule_no143:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1825,9 +2578,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no143>)
 ]
 [Rule_no144:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1838,9 +2596,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no144>)
 ]
 [Rule_no145:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1851,9 +2614,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no145>)
 ]
 [Rule_no146:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1864,9 +2632,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no146>)
 ]
 [Rule_no147:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1877,9 +2650,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no147>)
 ]
 [Rule_no148:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1890,9 +2668,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no148>)
 ]
 [Rule_no149:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1903,9 +2686,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no149>)
 ]
 [Rule_no150:
 (?datafield1 dd:measurement ddmeasurement:Aerosol+Optical+Depth),
@@ -1916,9 +2704,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no150>)
 ]
 [Rule_no151:
 (?datafield1 dd:measurement ddmeasurement:Angstrom+Exponent),
@@ -1929,9 +2722,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no151>)
 ]
 [Rule_no152:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -1942,9 +2740,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no152>)
 ]
 [Rule_no153:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -1955,9 +2758,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no153>)
 ]
 [Rule_no154:
 (?datafield1 dd:measurement ddmeasurement:Atmospheric+Moisture),
@@ -1968,9 +2776,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no154>)
 ]
 [Rule_no155:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Fraction),
@@ -1981,9 +2794,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no155>)
 ]
 [Rule_no156:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -1994,9 +2812,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no156>)
 ]
 [Rule_no157:
 (?datafield1 dd:measurement ddmeasurement:Cloud+Properties),
@@ -2007,9 +2830,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:StSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no157>)
 ]
 [Rule_no158:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -2020,9 +2848,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no158>)
 ]
 [Rule_no159:
 (?datafield1 dd:measurement ddmeasurement:Scattering+Angle),
@@ -2033,9 +2866,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no159>)
 ]
 [Rule_no160:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -2046,9 +2884,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no160>)
 ]
 [Rule_no161:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -2059,9 +2902,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no161>)
 ]
 [Rule_no162:
 (?datafield1 dd:measurement ddmeasurement:Surface+Temperature),
@@ -2072,9 +2920,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no162>)
 ]
 [Rule_no163:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2085,9 +2938,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no163>)
 ]
 [Rule_no164:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2098,9 +2956,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no164>)
 ]
 [Rule_no165:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2111,9 +2974,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no165>)
 ]
 [Rule_no166:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2124,9 +2992,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:some_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no166>)
 ]
 [Rule_no167:
 (?datafield1 dd:measurement ddmeasurement:Total+Aerosol+Optical+Depth),
@@ -2137,9 +3010,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:slight_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no167>)
 ]
 [Rule_no168:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -2150,9 +3028,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no168>)
 ]
 [Rule_no169:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -2163,9 +3046,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no169>)
 ]
 [Rule_no170:
 (?datafield1 dd:measurement ddmeasurement:Total+AOD+Climatology+Anomaly),
@@ -2176,9 +3064,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:ArAvSc)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no170>)
 ]
 [Rule_no171:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2189,9 +3082,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no171>)
 ]
 [Rule_no172:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2202,9 +3100,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no172>)
 ]
 [Rule_no173:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2215,9 +3118,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiTmAvMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no173>)
 ]
 [Rule_no174:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2228,9 +3136,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:DiArAv)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no174>)
 ]
 [Rule_no175:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2241,9 +3154,14 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no175>)
 ]
 [Rule_no176:
 (?datafield1 dd:measurement ddmeasurement:Vegetation),
@@ -2254,7 +3172,12 @@
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3)
+(?datafield2 dd:processingLevel 3),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
-(?candidate dd:candidateService dd:CoMp)
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:strong_compatibility
+ (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no176>)
 ]
