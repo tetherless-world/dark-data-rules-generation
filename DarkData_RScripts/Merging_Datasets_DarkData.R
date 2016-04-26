@@ -2,7 +2,7 @@
 
 #Improved Dataset
 
-rm(log_parsed_new)
+#rm(log_parsed_new)
 log_parsed_new <- read.delim("~/Downloads/log_parsed_new.csv", dec=".")
 nrows <- nrow(log_parsed_new) 
 
@@ -47,4 +47,4 @@ missing_logvalues <- yyy[is.na(yyy$platform.instrument.x),]
 x<-levels(missing_logvalues$ID)
 write.table(x,"missingvariable_list.txt")
 
-warnings()
+#warnings()
