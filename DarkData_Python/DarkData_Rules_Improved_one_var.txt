@@ -1,0 +1,841 @@
+rulesno	rules	support	confidence	lift
+20798	{Measurement1=Sensible Heat Flux,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+20800	{Measurement1=Sensible Heat Flux,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+20853	{Measurement1=Sensible Heat Flux,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+20859	{Measurement1=Sensible Heat Flux,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+20865	{Measurement1=Sensible Heat Flux,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+20871	{Measurement1=Sensible Heat Flux,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+35286	{Measurement1=Wind Stress Direction,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+35298	{Measurement1=Wind Stress Direction,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+37107	{Measurement1=Latent Heat Flux,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+37109	{Measurement1=Latent Heat Flux,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+37178	{Measurement1=Latent Heat Flux,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+37190	{Measurement1=Latent Heat Flux,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+37565	{Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+37568	{Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+37645	{Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+37658	{Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+61571	{Time_Interval1=monthly,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+61574	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+61580	{Time_Interval1=monthly,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+61583	{Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+66811	{Measurement1=Wind,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+66819	{Measurement1=Wind,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+71967	{Time_Interval1=monthly,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+71970	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+71990	{Time_Interval1=monthly,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+71993	{Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+198320	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198324	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198346	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198356	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198365	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198375	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198432	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198435	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198439	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198443	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198446	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198449	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198453	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198457	{Measurement1=Sensible Heat Flux,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198460	{Measurement1=Sensible Heat Flux,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+198722	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198731	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198741	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198745	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198749	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198752	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198757	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198766	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198776	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198779	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198785	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198789	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198793	{Measurement1=Sensible Heat Flux,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198796	{Measurement1=Sensible Heat Flux,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+198801	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198810	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198820	{Measurement1=Sensible Heat Flux,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+198823	{Measurement1=Sensible Heat Flux,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+317351	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317371	{Measurement1=Wind Stress Direction,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317431	{Measurement1=Wind Stress Direction,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317444	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317456	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317469	{Measurement1=Wind Stress Direction,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317472	{Measurement1=Wind Stress Direction,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317481	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317493	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317506	{Measurement1=Wind Stress Direction,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+317509	{Measurement1=Wind Stress Direction,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+330331	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+330335	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+330398	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+330420	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331017	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331020	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331024	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331028	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331031	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331034	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331038	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331042	{Measurement1=Latent Heat Flux,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331045	{Measurement1=Latent Heat Flux,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+331400	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331420	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331424	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331428	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331431	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331462	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331466	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331470	{Measurement1=Latent Heat Flux,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+331473	{Measurement1=Latent Heat Flux,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+333807	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333811	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333815	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333819	{Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333823	{Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333827	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333831	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333835	{Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+333839	{Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+334021	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+334044	{Measurement1=Wind,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+334211	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334234	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334246	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334259	{Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334262	{Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334281	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334293	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334306	{Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334309	{Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+526930	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526934	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526944	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526947	{Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526950	{Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526954	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526958	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526965	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526968	{Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526971	{Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526975	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+526979	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+562301	{Measurement1=Wind,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562321	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562330	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562343	{Measurement1=Wind,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562345	{Measurement1=Wind,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562359	{Measurement1=Wind,Time_Interval1=monthly,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562368	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562381	{Measurement1=Wind,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+562383	{Measurement1=Wind,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+587744	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587753	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587784	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587794	{Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587796	{Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587800	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587802	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587819	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587829	{Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587831	{Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587835	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587837	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1111856	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111861	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111866	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111871	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111876	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111881	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111886	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111891	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111896	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1111929	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1111942	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1111955	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1111960	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1111965	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1111970	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1111978	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1111990	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112003	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112007	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112015	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112020	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112025	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112030	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112038	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112050	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112063	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112067	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112147	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112152	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112157	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112161	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112165	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112170	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112175	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112180	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112185	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112190	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112194	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112199	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112204	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112209	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112214	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112219	{Measurement1=Sensible Heat Flux,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+1112915	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112920	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112925	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112929	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112936	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112948	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112961	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112965	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1112974	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112979	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112984	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112989	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112994	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1112999	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1113001	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113014	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113018	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113026	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113030	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113039	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113043	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1113048	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1113053	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1113058	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1113063	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1113068	{Measurement1=Sensible Heat Flux,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+1113070	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113083	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113087	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113095	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113099	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1113108	{Measurement1=Sensible Heat Flux,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+1642225	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642245	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642260	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642276	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642281	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642295	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642310	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642326	{Measurement1=Wind Stress Direction,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642331	{Measurement1=Wind Stress Direction,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642395	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642410	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642426	{Measurement1=Wind Stress Direction,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642430	{Measurement1=Wind Stress Direction,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642437	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642453	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642458	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642468	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642473	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642484	{Measurement1=Wind Stress Direction,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642486	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642502	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642507	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642517	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642522	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1642533	{Measurement1=Wind Stress Direction,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+1696508	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696513	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696518	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696523	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696528	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696533	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696538	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696543	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696548	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1696731	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696760	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696765	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696770	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696775	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696822	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696827	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696832	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1696837	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1698676	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698681	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698686	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698690	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698694	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698699	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698704	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698709	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698714	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698719	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698723	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698728	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698733	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698738	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698743	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1698748	{Measurement1=Latent Heat Flux,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+1699661	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699666	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699671	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699675	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699721	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699726	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699731	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699736	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699741	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699746	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699785	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699790	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699795	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699800	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699805	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1699810	{Measurement1=Latent Heat Flux,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+1707621	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707626	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707631	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707636	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707641	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707646	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707651	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707656	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707661	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707666	{Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707671	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707676	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707681	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707686	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707691	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1707696	{Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+1708125	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708161	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708176	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708192	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708197	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708227	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708242	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708258	{Measurement1=Wind,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708263	{Measurement1=Wind,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+1708574	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708589	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708605	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708609	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708639	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708655	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708660	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708670	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708675	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708686	{Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708711	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708727	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708732	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708742	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708747	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708758	{Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2518068	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518073	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518078	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518083	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518088	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518097	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518102	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518106	{Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518111	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518116	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518121	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518125	{Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2518130	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+2643494	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643509	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643525	{Measurement1=Wind,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643529	{Measurement1=Wind,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643556	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643572	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643576	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643584	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643589	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643600	{Measurement1=Wind,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643621	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643637	{Measurement1=Wind,Time_Interval1=monthly,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643641	{Measurement1=Wind,Time_Interval1=monthly,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643649	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643654	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2643665	{Measurement1=Wind,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+2710444	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710460	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710464	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710472	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710476	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710499	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710503	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710512	{Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710515	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710527	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710531	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710540	{Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710543	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+4143655	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143661	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143667	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143673	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143679	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143685	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143691	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143697	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143703	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143709	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143715	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143721	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143727	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143733	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143739	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143745	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4143773	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143779	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143785	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143791	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143801	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143816	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143832	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143837	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143848	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143854	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143860	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143866	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143872	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143878	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143882	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143898	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143903	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143913	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143918	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143929	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143934	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143940	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143946	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143952	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143958	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143964	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4143968	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143984	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143989	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4143999	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4144004	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4144015	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4144071	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144077	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144083	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144089	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144095	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144101	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144106	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144112	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144118	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144124	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144130	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144136	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144142	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4144148	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+4145238	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145244	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145250	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145256	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145262	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145268	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145271	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145287	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145292	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145302	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145307	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145318	{Measurement1=Sensible Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145324	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145330	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145336	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145342	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145346	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145351	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145362	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145367	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145373	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145379	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145385	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145391	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+4145395	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145400	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145411	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+4145416	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+5658096	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658114	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658133	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658139	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658150	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658169	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658175	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658187	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658193	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658206	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658210	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658229	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658235	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658247	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658253	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658266	{Measurement1=Wind Stress Direction,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658300	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658319	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658325	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658337	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658343	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658356	{Measurement1=Wind Stress Direction,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658360	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658366	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658379	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658385	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658390	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658396	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658409	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5658415	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+5807957	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5807963	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5807969	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5807975	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5807981	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5807987	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5807993	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5807999	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808005	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808011	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808017	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808023	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808029	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808035	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808041	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808047	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5808365	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808371	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808377	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808383	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808442	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808448	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808454	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808460	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808466	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808472	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808526	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808532	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808538	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808544	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808550	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5808556	{Measurement1=Latent Heat Flux,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5811862	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811868	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811874	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811880	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811886	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811892	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811897	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811903	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811909	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811915	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811921	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811927	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811933	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5811939	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+5813292	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813298	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813304	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813310	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813316	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813322	{Measurement1=Latent Heat Flux,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813376	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813382	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813388	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813394	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813421	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813427	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813433	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5813439	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+5830082	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830088	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830094	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830100	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830106	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830112	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830118	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830124	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830130	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830136	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830142	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830148	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830154	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830160	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+5830756	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830774	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830793	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830799	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830840	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830859	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830865	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830877	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830883	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830896	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830930	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830949	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830955	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830967	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830973	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5830986	{Measurement1=Wind,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+5831286	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831305	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831311	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831323	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831329	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831342	{Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831366	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831372	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831385	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831391	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831416	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831422	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831435	{Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831441	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+7980367	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+7980373	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+7980379	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+7980385	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+7980391	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+7980397	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+8259900	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259919	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259925	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259937	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259943	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259956	{Measurement1=Wind,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259979	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259985	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8259998	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8260003	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8260027	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8260033	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8260046	{Measurement1=Wind,Time_Interval1=monthly,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8260051	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+8365268	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+8365274	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+8365287	{Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+8365292	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+8365301	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+8365310	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+11129591	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129598	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129605	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129612	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129619	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129626	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129633	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129640	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129647	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129654	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129661	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129668	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129675	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129682	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129694	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129701	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129708	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129715	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129722	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129729	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129734	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129753	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129759	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129771	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129777	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129790	{Measurement1=Sensible Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129797	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129804	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129811	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129818	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129823	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129829	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129842	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129848	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129855	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129862	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129869	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129876	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11129881	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129887	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129900	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129906	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11129928	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129935	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129942	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129949	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129956	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11129963	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+11131010	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11131017	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11131024	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11131031	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11131036	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11131042	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11131055	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11131061	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11131069	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11131074	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+11131082	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+11131087	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+14129255	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129277	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129284	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129298	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129305	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129320	{Measurement1=Wind Stress Direction,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129326	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129333	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129348	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129355	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129361	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129368	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129383	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129390	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129403	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129410	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129425	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129432	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129439	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14129446	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+14424046	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424053	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424060	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424067	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424074	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424081	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424088	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424095	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424102	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424109	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424116	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424123	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424130	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424137	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14424469	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424476	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424483	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424490	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424497	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424504	{Measurement1=Latent Heat Flux,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424570	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424577	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424584	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424591	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424625	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424632	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424639	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14424646	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14428492	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14428499	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14428506	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14428513	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14428520	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14428527	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+14429750	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14429757	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14429764	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14429771	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14429806	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14429818	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+14454329	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+14454336	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+14454343	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+14454350	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+14454357	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+14454364	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+14454848	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454870	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454877	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454891	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454898	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454913	{Measurement1=Wind,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454943	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454950	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454965	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14454972	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14455002	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14455009	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14455024	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14455031	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+14455182	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+14455189	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+14455204	{Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+14455211	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+14455224	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+14455237	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+18399635	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+18826995	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+18827002	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+18827017	{Measurement1=Wind,Time_Interval1=monthly,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+18827024	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+18827037	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+18827050	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+18930611	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+22826987	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+22826995	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+22827003	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+22827011	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+22827019	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+22827027	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+22827033	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+22827041	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+22827049	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+22827057	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+22827063	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+22827070	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+22827085	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+22827092	{Measurement1=Sensible Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+22827101	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+22827107	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+22827116	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+22827122	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+22827133	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+22827741	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+22827747	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+27121229	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+27121237	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+27121254	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+27121262	{Measurement1=Wind Stress Direction,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+27121270	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+27121278	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+27121286	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+27549963	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+27549971	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+27549979	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+27549987	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+27549995	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+27550003	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+27550213	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+27550221	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+27550229	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+27550237	{Measurement1=Latent Heat Flux,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+27550278	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+27550292	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+27553319	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+27553989	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+27579995	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000159427296010203	0.147619047619048	16.477573670111
+27580214	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+27580222	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+27580239	{Measurement1=Wind,Time_Interval1=monthly,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+27580247	{Measurement1=Wind,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+27580262	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+27580277	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+27580313	{Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+33291755	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896
+37435321	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	5.65709760036205e-05	0.647058823529412	72.2261768082664
+37435328	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	2.05712640013166e-05	0.235294117647059	1.26523049694422
+37435335	{Measurement1=Sensible Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	1.02856320006583e-05	0.117647058823529	0.189839172793813
+41966079	{Measurement1=Wind Stress Direction,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000668566080042788	1	1.61363296874741
+42433667	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=DiTmAvMp}	0.000102856320006583	0.625	69.7639207807118
+42433744	{Measurement1=Latent Heat Flux,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=ArAvTs}	4.11425280026331e-05	0.25	1.34430740300324
+42455783	{Measurement1=Wind,Time_Interval1=monthly,Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000123427584007899	0.774193548387097	1.24926423386896

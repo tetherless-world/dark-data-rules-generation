@@ -74,15 +74,21 @@ rules <- apriori(data = RS_Improved_less, parameter = list(supp = 0.0000001, con
 
 rules.sub.predict <- subset(rules, subset = ((rhs %pin% "Service")))
 
-rules.sub.AP <- subset(rules.sub.predict, subset = ((lhs %pin% "Measurement1=Radiation")&(lhs %pin% "Measurement2")&(lhs %pin% "Spatial_Resolution2")&(lhs %pin% "Spatial_Resolution1")&(lhs %pin% "Time_Interval1")&(lhs %pin% "Time_Interval2")&(lhs %pin% "Instrument1")&(lhs %pin% "Instrument2")))
+rules.with.events <- subset(rules.sub.predict,subset = ((lhs %pin% "VolcanicEruption=1")|(lhs %pin% "Hurricane=1")|(lhs %pin% "Fire=1")|(lhs %pin% "Flood=1")))
 
-rules.with.events <- subset(rules.sub.predict,subset = (lhs %pin% "Volcano=1")|(lhs %pin% "Hurricane=1")|(lhs %pin% "Fire=1")|(lhs %pin% "Flood=1"))
+rules.sub.AP <- subset(rules.with.events, subset = ((lhs %pin% "Measurement1")&(lhs %pin% "Measurement2")&(lhs %pin% "Spatial_Resolution2")&(lhs %pin% "Spatial_Resolution1")&(lhs %pin% "Time_Interval1")&(lhs %pin% "Time_Interval2")))
+
+rules.sub.one.var <- subset(rules.with.events, subset = (((lhs %pin% "Measurement1")|(lhs %pin% "Instrument1")|(lhs %pin% "Time_Interval1")|(lhs %pin% "Spatial_Resolution1"))&(!(lhs %pin% "Measurement2"))&(!(lhs %pin% "Spatial_Resolution2"))&(!(lhs %pin% "Time_Interval2"))&(!(lhs %pin% "Instrument2"))&(!(lhs %pin% "Processing_Level2"))))
+
+rules.sub.only.second.var <- subset(rules.with.events, subset = (((lhs %pin% "Measurement2")|(lhs %pin% "Instrument2")|(lhs %pin% "Time_Interval2")|(lhs %pin% "Spatial_Resolution2"))&(!(lhs %pin% "Measurement1"))&(!(lhs %pin% "Spatial_Resolution1"))&(!(lhs %pin% "Time_Interval1"))&(!(lhs %pin% "Instrument1"))&(!(lhs %pin% "Processing_Level1"))))
 
 
 inspect((rules.sub.AP))
-inspect(head(rules.with.events))
+inspect(rules.sub.one.var)
 
-write(rules.with.events, file = "/Users/anirudhprabhu/PycharmProjects/dark-data-rules-generation/DarkData_Python/DarkData_Rules_Improved_AP.txt", sep = "\t")
+write(rules.sub.AP, file = "/Users/anirudhprabhu/PycharmProjects/dark-data-rules-generation/DarkData_Python/DarkData_Rules_Improved_two_var.txt", sep = "\t")
+write(rules.sub.one.var, file = "/Users/anirudhprabhu/PycharmProjects/dark-data-rules-generation/DarkData_Python/DarkData_Rules_Improved_one_var.txt", sep = "\t")
+write(rules.sub.only.second.var, file = "/Users/anirudhprabhu/PycharmProjects/dark-data-rules-generation/DarkData_Python/DarkData_Rules_Improved_only_second_var.txt", sep = "\t")
 
 #Stop here and run the python script
 

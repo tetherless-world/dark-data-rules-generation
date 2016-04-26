@@ -1,0 +1,1896 @@
+@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.
+@prefix ddmeasurement: <http://darkdata.tw.rpi.edu/data/measurement/>.
+@prefix ddtime: <http://darkdata.tw.rpi.edu/data/time-interval/>.
+@prefix ddspatial:<http://darkdata.tw.rpi.edu/data/spatial-resolution/>.
+@prefix ddinstrument:<http://darkdata.tw.rpi.edu/data/instrument/>.
+
+[Rule_no0:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no0>)
+]
+[Rule_no1:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no1>)
+]
+[Rule_no2:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no2>)
+]
+[Rule_no3:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no3>)
+]
+[Rule_no4:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no4>)
+]
+[Rule_no5:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no5>)
+]
+[Rule_no6:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no6>)
+]
+[Rule_no7:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no7>)
+]
+[Rule_no8:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no8>)
+]
+[Rule_no9:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no9>)
+]
+[Rule_no10:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no10>)
+]
+[Rule_no11:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no11>)
+]
+[Rule_no12:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no12>)
+]
+[Rule_no13:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no13>)
+]
+[Rule_no14:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no14>)
+]
+[Rule_no15:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no15>)
+]
+[Rule_no16:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no16>)
+]
+[Rule_no17:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no17>)
+]
+[Rule_no18:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no18>)
+]
+[Rule_no19:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no19>)
+]
+[Rule_no20:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no20>)
+]
+[Rule_no21:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no21>)
+]
+[Rule_no22:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no22>)
+]
+[Rule_no23:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no23>)
+]
+[Rule_no24:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no24>)
+]
+[Rule_no25:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no25>)
+]
+[Rule_no26:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no26>)
+]
+[Rule_no27:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no27>)
+]
+[Rule_no28:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no28>)
+]
+[Rule_no29:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no29>)
+]
+[Rule_no30:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no30>)
+]
+[Rule_no31:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no31>)
+]
+[Rule_no32:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no32>)
+]
+[Rule_no33:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no33>)
+]
+[Rule_no34:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no34>)
+]
+[Rule_no35:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no35>)
+]
+[Rule_no36:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no36>)
+]
+[Rule_no37:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no37>)
+]
+[Rule_no38:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no38>)
+]
+[Rule_no39:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no39>)
+]
+[Rule_no40:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no40>)
+]
+[Rule_no41:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no41>)
+]
+[Rule_no42:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no42>)
+]
+[Rule_no43:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no43>)
+]
+[Rule_no44:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no44>)
+]
+[Rule_no45:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no45>)
+]
+[Rule_no46:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no46>)
+]
+[Rule_no47:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no47>)
+]
+[Rule_no48:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no48>)
+]
+[Rule_no49:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no49>)
+]
+[Rule_no50:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no50>)
+]
+[Rule_no51:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no51>)
+]
+[Rule_no52:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no52>)
+]
+[Rule_no53:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no53>)
+]
+[Rule_no54:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no54>)
+]
+[Rule_no55:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no55>)
+]
+[Rule_no56:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no56>)
+]
+[Rule_no57:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no57>)
+]
+[Rule_no58:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no58>)
+]
+[Rule_no59:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no59>)
+]
+[Rule_no60:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield2 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no60>)
+]
+[Rule_no61:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no61>)
+]
+[Rule_no62:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no62>)
+]
+[Rule_no63:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no63>)
+]
+[Rule_no64:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no64>)
+]
+[Rule_no65:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no65>)
+]
+[Rule_no66:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no66>)
+]
+[Rule_no67:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no67>)
+]
+[Rule_no68:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no68>)
+]
+[Rule_no69:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no69>)
+]
+[Rule_no70:
+(?datafield2 dd:measurement ddmeasurement:Sensible Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.25 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no70>)
+]
+[Rule_no71:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no71>)
+]
+[Rule_no72:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no72>)
+]
+[Rule_no73:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no73>)
+]
+[Rule_no74:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no74>)
+]
+[Rule_no75:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no75>)
+]
+[Rule_no76:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no76>)
+]
+[Rule_no77:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no77>)
+]
+[Rule_no78:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no78>)
+]
+[Rule_no79:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no79>)
+]
+[Rule_no80:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no80>)
+]
+[Rule_no81:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no81>)
+]
+[Rule_no82:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no82>)
+]
+[Rule_no83:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no83>)
+]
+[Rule_no84:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no84>)
+]
+[Rule_no85:
+(?datafield1 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no85>)
+]
+[Rule_no86:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no86>)
+]
+[Rule_no87:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no87>)
+]
+[Rule_no88:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no88>)
+]
+[Rule_no89:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no89>)
+]
+[Rule_no90:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no90>)
+]
+[Rule_no91:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no91>)
+]
+[Rule_no92:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no92>)
+]
+[Rule_no93:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no93>)
+]
+[Rule_no94:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no94>)
+]
+[Rule_no95:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:instrument ddinstrument:SSMI),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no95>)
+]
+[Rule_no96:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no96>)
+]
+[Rule_no97:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no97>)
+]
+[Rule_no98:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no98>)
+]
+[Rule_no99:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no99>)
+]
+[Rule_no100:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no100>)
+]
+[Rule_no101:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield2 dd:instrument ddinstrument:MERRA Data Model),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no101>)
+]
+[Rule_no102:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no102>)
+]
+[Rule_no103:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:VolcanicEruption),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no103>)
+]
+[Rule_no104:
+(?datafield2 dd:measurement ddmeasurement:Latent Heat Flux),
+(?datafield1 dd:timeInterval ddtime:monthly),
+(?datafield2 dd:timeInterval ddtime:monthly),
+(?datafield1 dd:spatialResolution ddspatial:0.25 deg.),
+(?datafield2 dd:spatialResolution ddspatial:0.5 x 0.667 deg.),
+(?datafield2 dd:processingLevel 3.0),
+(?candidate dd:candidateEvent ?event),
+(?event rdf:type dd:Hurricane),
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
+->
+(?candidate dd:compatibilityAssertion ?assertion),
+(?assertion rdf:type dd:CompatibilityAssertion),
+(?assertion dd:compatibilityValue dd:high),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no104>)
+]
