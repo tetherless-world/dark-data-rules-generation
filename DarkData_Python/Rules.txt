@@ -17,8 +17,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no0>)
 ]
 [Rule_no1:
@@ -32,12 +32,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no1>)
 ]
 [Rule_no2:
@@ -51,12 +51,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no2>)
 ]
 [Rule_no3:
@@ -72,8 +72,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no3>)
 ]
 [Rule_no4:
@@ -85,13 +85,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no4>)
 ]
 [Rule_no5:
@@ -103,13 +103,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no5>)
 ]
 [Rule_no6:
@@ -123,12 +123,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no6>)
 ]
 [Rule_no7:
@@ -142,12 +142,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no7>)
 ]
 [Rule_no8:
@@ -163,8 +163,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no8>)
 ]
 [Rule_no9:
@@ -176,13 +176,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no9>)
 ]
 [Rule_no10:
@@ -196,12 +196,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no10>)
 ]
 [Rule_no11:
@@ -215,12 +215,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no11>)
 ]
 [Rule_no12:
@@ -236,8 +236,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no12>)
 ]
 [Rule_no13:
@@ -253,8 +253,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no13>)
 ]
 [Rule_no14:
@@ -266,13 +266,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no14>)
 ]
 [Rule_no15:
@@ -284,13 +284,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no15>)
 ]
 [Rule_no16:
@@ -306,8 +306,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no16>)
 ]
 [Rule_no17:
@@ -321,12 +321,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no17>)
 ]
 [Rule_no18:
@@ -340,12 +340,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no18>)
 ]
 [Rule_no19:
@@ -361,8 +361,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no19>)
 ]
 [Rule_no20:
@@ -374,13 +374,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no20>)
 ]
 [Rule_no21:
@@ -392,13 +392,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no21>)
 ]
 [Rule_no22:
@@ -414,8 +414,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no22>)
 ]
 [Rule_no23:
@@ -431,8 +431,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no23>)
 ]
 [Rule_no24:
@@ -448,8 +448,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no24>)
 ]
 [Rule_no25:
@@ -465,8 +465,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no25>)
 ]
 [Rule_no26:
@@ -482,8 +482,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no26>)
 ]
 [Rule_no27:
@@ -495,13 +495,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no27>)
 ]
 [Rule_no28:
@@ -513,13 +513,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no28>)
 ]
 [Rule_no29:
@@ -531,13 +531,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no29>)
 ]
 [Rule_no30:
@@ -549,13 +549,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no30>)
 ]
 [Rule_no31:
@@ -567,13 +567,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no31>)
 ]
 [Rule_no32:
@@ -585,13 +585,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no32>)
 ]
 [Rule_no33:
@@ -603,13 +603,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no33>)
 ]
 [Rule_no34:
@@ -621,13 +621,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no34>)
 ]
 [Rule_no35:
@@ -639,13 +639,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no35>)
 ]
 [Rule_no36:
@@ -657,13 +657,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no36>)
 ]
 [Rule_no37:
@@ -675,13 +675,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no37>)
 ]
 [Rule_no38:
@@ -693,13 +693,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no38>)
 ]
 [Rule_no39:
@@ -711,13 +711,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no39>)
 ]
 [Rule_no40:
@@ -729,13 +729,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no40>)
 ]
 [Rule_no41:
@@ -747,13 +747,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no41>)
 ]
 [Rule_no42:
@@ -765,13 +765,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no42>)
 ]
 [Rule_no43:
@@ -783,13 +783,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:daily),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no43>)
 ]
 [Rule_no44:
@@ -805,8 +805,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no44>)
 ]
 [Rule_no45:
@@ -822,8 +822,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no45>)
 ]
 [Rule_no46:
@@ -839,8 +839,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no46>)
 ]
 [Rule_no47:
@@ -856,8 +856,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no47>)
 ]
 [Rule_no48:
@@ -873,8 +873,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no48>)
 ]
 [Rule_no49:
@@ -888,12 +888,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no49>)
 ]
 [Rule_no50:
@@ -907,12 +907,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no50>)
 ]
 [Rule_no51:
@@ -928,8 +928,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no51>)
 ]
 [Rule_no52:
@@ -941,13 +941,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no52>)
 ]
 [Rule_no53:
@@ -959,13 +959,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no53>)
 ]
 [Rule_no54:
@@ -977,13 +977,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no54>)
 ]
 [Rule_no55:
@@ -995,13 +995,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no55>)
 ]
 [Rule_no56:
@@ -1013,13 +1013,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no56>)
 ]
 [Rule_no57:
@@ -1031,13 +1031,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no57>)
 ]
 [Rule_no58:
@@ -1051,12 +1051,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no58>)
 ]
 [Rule_no59:
@@ -1070,12 +1070,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no59>)
 ]
 [Rule_no60:
@@ -1091,8 +1091,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no60>)
 ]
 [Rule_no61:
@@ -1104,13 +1104,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no61>)
 ]
 [Rule_no62:
@@ -1124,12 +1124,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no62>)
 ]
 [Rule_no63:
@@ -1143,12 +1143,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no63>)
 ]
 [Rule_no64:
@@ -1164,8 +1164,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no64>)
 ]
 [Rule_no65:
@@ -1181,8 +1181,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no65>)
 ]
 [Rule_no66:
@@ -1194,13 +1194,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no66>)
 ]
 [Rule_no67:
@@ -1212,13 +1212,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no67>)
 ]
 [Rule_no68:
@@ -1232,12 +1232,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no68>)
 ]
 [Rule_no69:
@@ -1251,12 +1251,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no69>)
 ]
 [Rule_no70:
@@ -1272,8 +1272,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no70>)
 ]
 [Rule_no71:
@@ -1289,8 +1289,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no71>)
 ]
 [Rule_no72:
@@ -1302,13 +1302,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no72>)
 ]
 [Rule_no73:
@@ -1320,13 +1320,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no73>)
 ]
 [Rule_no74:
@@ -1340,12 +1340,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no74>)
 ]
 [Rule_no75:
@@ -1359,12 +1359,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no75>)
 ]
 [Rule_no76:
@@ -1380,8 +1380,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:indifferent_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no76>)
 ]
 [Rule_no77:
@@ -1395,12 +1395,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no77>)
 ]
 [Rule_no78:
@@ -1414,12 +1414,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no78>)
 ]
 [Rule_no79:
@@ -1435,8 +1435,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:indifferent_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no79>)
 ]
 [Rule_no80:
@@ -1450,12 +1450,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no80>)
 ]
 [Rule_no81:
@@ -1469,12 +1469,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no81>)
 ]
 [Rule_no82:
@@ -1490,8 +1490,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:indifferent_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no82>)
 ]
 [Rule_no83:
@@ -1503,13 +1503,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:indifferent_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no83>)
 ]
 [Rule_no84:
@@ -1521,13 +1521,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:indifferent_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no84>)
 ]
 [Rule_no85:
@@ -1539,13 +1539,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:indifferent_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no85>)
 ]
 [Rule_no86:
@@ -1561,8 +1561,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no86>)
 ]
 [Rule_no87:
@@ -1578,8 +1578,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no87>)
 ]
 [Rule_no88:
@@ -1595,8 +1595,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no88>)
 ]
 [Rule_no89:
@@ -1612,8 +1612,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no89>)
 ]
 [Rule_no90:
@@ -1629,8 +1629,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no90>)
 ]
 [Rule_no91:
@@ -1642,13 +1642,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:5000+m),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no91>)
 ]
 [Rule_no92:
@@ -1660,13 +1660,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no92>)
 ]
 [Rule_no93:
@@ -1678,13 +1678,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no93>)
 ]
 [Rule_no94:
@@ -1696,13 +1696,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no94>)
 ]
 [Rule_no95:
@@ -1716,12 +1716,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no95>)
 ]
 [Rule_no96:
@@ -1735,12 +1735,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no96>)
 ]
 [Rule_no97:
@@ -1754,12 +1754,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no97>)
 ]
 [Rule_no98:
@@ -1773,12 +1773,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no98>)
 ]
 [Rule_no99:
@@ -1794,8 +1794,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no99>)
 ]
 [Rule_no100:
@@ -1811,8 +1811,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no100>)
 ]
 [Rule_no101:
@@ -1826,12 +1826,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no101>)
 ]
 [Rule_no102:
@@ -1845,12 +1845,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no102>)
 ]
 [Rule_no103:
@@ -1866,8 +1866,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no103>)
 ]
 [Rule_no104:
@@ -1881,12 +1881,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no104>)
 ]
 [Rule_no105:
@@ -1900,12 +1900,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no105>)
 ]
 [Rule_no106:
@@ -1919,12 +1919,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no106>)
 ]
 [Rule_no107:
@@ -1938,12 +1938,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no107>)
 ]
 [Rule_no108:
@@ -1957,12 +1957,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no108>)
 ]
 [Rule_no109:
@@ -1976,12 +1976,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no109>)
 ]
 [Rule_no110:
@@ -1997,8 +1997,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no110>)
 ]
 [Rule_no111:
@@ -2014,8 +2014,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no111>)
 ]
 [Rule_no112:
@@ -2031,8 +2031,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no112>)
 ]
 [Rule_no113:
@@ -2048,8 +2048,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no113>)
 ]
 [Rule_no114:
@@ -2061,13 +2061,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no114>)
 ]
 [Rule_no115:
@@ -2079,13 +2079,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no115>)
 ]
 [Rule_no116:
@@ -2097,13 +2097,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no116>)
 ]
 [Rule_no117:
@@ -2115,13 +2115,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no117>)
 ]
 [Rule_no118:
@@ -2133,13 +2133,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no118>)
 ]
 [Rule_no119:
@@ -2151,13 +2151,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no119>)
 ]
 [Rule_no120:
@@ -2169,13 +2169,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no120>)
 ]
 [Rule_no121:
@@ -2189,12 +2189,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no121>)
 ]
 [Rule_no122:
@@ -2208,12 +2208,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no122>)
 ]
 [Rule_no123:
@@ -2227,12 +2227,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no123>)
 ]
 [Rule_no124:
@@ -2246,12 +2246,12 @@ makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
-makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
+makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no124>)
 ]
 [Rule_no125:
@@ -2267,8 +2267,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no125>)
 ]
 [Rule_no126:
@@ -2284,8 +2284,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no126>)
 ]
 [Rule_no127:
@@ -2301,8 +2301,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no127>)
 ]
 [Rule_no128:
@@ -2318,8 +2318,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no128>)
 ]
 [Rule_no129:
@@ -2335,8 +2335,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no129>)
 ]
 [Rule_no130:
@@ -2348,13 +2348,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no130>)
 ]
 [Rule_no131:
@@ -2366,13 +2366,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no131>)
 ]
 [Rule_no132:
@@ -2384,13 +2384,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no132>)
 ]
 [Rule_no133:
@@ -2402,13 +2402,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no133>)
 ]
 [Rule_no134:
@@ -2420,13 +2420,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no134>)
 ]
 [Rule_no135:
@@ -2442,8 +2442,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no135>)
 ]
 [Rule_no136:
@@ -2459,8 +2459,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no136>)
 ]
 [Rule_no137:
@@ -2476,8 +2476,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no137>)
 ]
 [Rule_no138:
@@ -2493,8 +2493,8 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no138>)
 ]
 [Rule_no139:
@@ -2506,13 +2506,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no139>)
 ]
 [Rule_no140:
@@ -2524,13 +2524,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no140>)
 ]
 [Rule_no141:
@@ -2542,13 +2542,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no141>)
 ]
 [Rule_no142:
@@ -2560,13 +2560,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield1 dd:processingLevel 3),
+(?datafield1 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no142>)
 ]
 [Rule_no143:
@@ -2578,13 +2578,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no143>)
 ]
 [Rule_no144:
@@ -2596,13 +2596,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no144>)
 ]
 [Rule_no145:
@@ -2614,13 +2614,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no145>)
 ]
 [Rule_no146:
@@ -2632,13 +2632,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no146>)
 ]
 [Rule_no147:
@@ -2650,13 +2650,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no147>)
 ]
 [Rule_no148:
@@ -2668,13 +2668,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no148>)
 ]
 [Rule_no149:
@@ -2686,13 +2686,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no149>)
 ]
 [Rule_no150:
@@ -2704,13 +2704,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no150>)
 ]
 [Rule_no151:
@@ -2722,13 +2722,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no151>)
 ]
 [Rule_no152:
@@ -2740,13 +2740,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no152>)
 ]
 [Rule_no153:
@@ -2758,13 +2758,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no153>)
 ]
 [Rule_no154:
@@ -2776,13 +2776,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no154>)
 ]
 [Rule_no155:
@@ -2794,13 +2794,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no155>)
 ]
 [Rule_no156:
@@ -2812,13 +2812,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no156>)
 ]
 [Rule_no157:
@@ -2830,13 +2830,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no157>)
 ]
 [Rule_no158:
@@ -2848,13 +2848,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no158>)
 ]
 [Rule_no159:
@@ -2866,13 +2866,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no159>)
 ]
 [Rule_no160:
@@ -2884,13 +2884,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:5000+m),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no160>)
 ]
 [Rule_no161:
@@ -2902,13 +2902,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5000+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no161>)
 ]
 [Rule_no162:
@@ -2920,13 +2920,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no162>)
 ]
 [Rule_no163:
@@ -2938,13 +2938,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no163>)
 ]
 [Rule_no164:
@@ -2956,13 +2956,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no164>)
 ]
 [Rule_no165:
@@ -2974,13 +2974,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no165>)
 ]
 [Rule_no166:
@@ -2992,13 +2992,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no166>)
 ]
 [Rule_no167:
@@ -3010,13 +3010,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no167>)
 ]
 [Rule_no168:
@@ -3028,13 +3028,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:0.5+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no168>)
 ]
 [Rule_no169:
@@ -3046,13 +3046,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.5+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no169>)
 ]
 [Rule_no170:
@@ -3064,13 +3064,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:1+deg.),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no170>)
 ]
 [Rule_no171:
@@ -3082,13 +3082,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no171>)
 ]
 [Rule_no172:
@@ -3100,13 +3100,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no172>)
 ]
 [Rule_no173:
@@ -3118,13 +3118,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:0.05+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no173>)
 ]
 [Rule_no174:
@@ -3136,13 +3136,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:0.05+deg.),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no174>)
 ]
 [Rule_no175:
@@ -3154,13 +3154,13 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:5600+m),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no175>)
 ]
 [Rule_no176:
@@ -3172,12 +3172,12 @@ makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 (?datafield2 dd:timeInterval ddtime:monthly),
 (?datafield1 dd:spatialResolution ddspatial:5600+m),
 (?datafield2 dd:spatialResolution ddspatial:1+deg.),
-(?datafield2 dd:processingLevel 3),
+(?datafield2 dd:processingLevel 3.0),
 makeSkolem(?assertion, ?candidate, ?datafield1 , ?datafield2)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility
- (?assertion dd:assertionConfidence "0.5"^^xsd:double)
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double)
 (?assertion dd:basisForAssertion <urn:rule/Rules.txt/<Rule_no176>)
 ]
