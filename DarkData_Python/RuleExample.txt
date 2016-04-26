@@ -12,7 +12,10 @@
  (?datafield1 dd:instrument ddinstrument:MODIS),
  (?datafield2 dd:instrument ddinstrument:MODIS),
  (?datafield1 dd:spatialResolution ddspatial:1+deg.),
- (?datafield2 dd:spatialResolution ddspatial:1+deg.)
+ (?datafield2 dd:spatialResolution ddspatial:1+deg.),
+ (?candidate dd:candidateVariable ?datafield1),
+ (?candidate dd:candidateVariable ?datafield2),
+ notEqual(?datafield1, ?datafield2),
  (?candidate dd:candidateEvent ?event),
  (?event rdf:type dd:Hurricane),
  makeSkolem(?assertion, ?candidate, ?event, ?datafield1 , ?datafield2)
