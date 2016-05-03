@@ -9,14 +9,14 @@ with pd.ExcelFile('X Applicability to Phenomena.xlsx') as xls:
 
 
 #print(Rules['Spatial_Resolution'])
-#print(Rules['Measurement'])
+#print(Rules['Measurement']['Sensible Heat Flux'])
 
-spatialRes = ['2 x 2.5 deg.','1.0 x 1.25 deg.','1 x 1.25 deg.','0.5 x 0.625 deg.','0.125 deg.','1 deg.','0.1 deg.','0.667 x 1.25 deg.','0.5 deg.','5000 m','0.05 deg.','5600 m','0.25 deg.','0.5 x 0.667 deg.','1.25 deg.']
+measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture']
 events = ['Hurricane','TropicalStorm','VolcanicEruption','Flood','Fire','DustStorm','Drought']
 
 def fun(i,x):
 
-    y = (str(Rules['Spatial_Resolution'][spatialRes[x]][i]))
+    y = (str(Rules['Measurement'][measurements[x]][i]))
     yy = y.split(' ')
 
     if(yy[0]=='GREAT'):
@@ -30,27 +30,27 @@ def fun(i,x):
     else:
         f.write('(?assertion dd:compatibilityValue dd:indifferent_compatibility),'+"\n")
 
-    f.write('(?assertion dd:assertionConfidence \"'+yy[1]+'\"^^xsd:double)'+"\n")
+    f.write('(?assertion dd:assertionConfidence \"'+yy[1]+'\"^^xsd:double),'+"\n")
 
-f = open('spatial_res.rules','w')
+f = open('measurement.rules','w')
 f.write('@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.'+'\n'+
-    '@prefix ddspatial:<http://darkdata.tw.rpi.edu/data/spatial-resolution/>.'+"\n")
+    '@prefix ddmeasurement: <http://darkdata.tw.rpi.edu/data/measurement/>.'+"\n")
 
 for i in range(0,len(events)):
     f.write("\n"+"#"+events[i]+"\n")
-    for j in range(0,len(spatialRes)):
-        f.write("["+events[i]+"-"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+":"+"\n")
+    for j in range(0,len(measurements)):
+        f.write("["+events[i]+"-"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+":"+"\n")
         f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
-        "(?event rdf:type dd:"+events[i]+"\n"+
+        "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:spatialResolution ddspatial:"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+"\n"+
+        "(?variable dd:spatialResolution ddspatial:"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+"),"+"\n"+
         "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", ?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
         "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"
         )
         fun(i,j)
-        f.write("(?assertion dd:basisForAssertion <urn:rule/spatial_res/"+events[i]+"-"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+">"+"\n"+"]"+"\n")
+        f.write("(?assertion dd:basisForAssertion <urn:rule/measurement/"+events[i]+"-"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+">"+")"+"\n"+"]"+"\n")
 
     f.write('\n')
 

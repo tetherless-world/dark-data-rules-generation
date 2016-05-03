@@ -1,0 +1,18 @@
+@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.
+@prefix ddmeasurement: <http://darkdata.tw.rpi.edu/data/measurement/>.
+
+# Hurricane
+
+[hurricane-Sensible+Heat+Flux:
+ (?candidate dd:candidateEvent ?event),
+ (?event rdf:type dd:Hurricane),
+ (?candidate dd:candidateVariable ?variable),
+ (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
+ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+ ->
+ (?candidate dd:compatibilityAssertion ?assertion),
+ (?assertion rdf:type dd:CompatibilityAssertion),
+ (?assertion dd:compatibilityValue dd:strong_compatibility),
+ (?assertion dd:assertionConfidence "0.7"^^xsd:double),
+ (?assertion dd:basisForAssertion <urn:rule/spatial_res/hurricane-Sensible+Heat+Flux>)
+]
