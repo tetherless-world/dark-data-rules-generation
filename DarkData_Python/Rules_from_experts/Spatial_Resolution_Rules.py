@@ -30,7 +30,7 @@ def fun(i,x):
     else:
         f.write('(?assertion dd:compatibilityValue dd:indifferent_compatibility),'+"\n")
 
-    f.write('(?assertion dd:assertionConfidence \"'+yy[1]+'\"^^xsd:double)'+"\n")
+    f.write('(?assertion dd:assertionConfidence \"'+yy[1]+'\"^^xsd:double),'+"\n")
 
 f = open('spatial_res.rules','w')
 f.write('@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.'+'\n'+
@@ -41,16 +41,16 @@ for i in range(0,len(events)):
     for j in range(0,len(spatialRes)):
         f.write("["+events[i]+"-"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+":"+"\n")
         f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
-        "(?event rdf:type dd:"+events[i]+"\n"+
+        "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:spatialResolution ddspatial:"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+"\n"+
+        "(?variable dd:spatialResolution ddspatial:"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+"),"+"\n"+
         "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", ?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
         "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"
         )
         fun(i,j)
-        f.write("(?assertion dd:basisForAssertion <urn:rule/spatial_res/"+events[i]+"-"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+">"+"\n"+"]"+"\n")
+        f.write("(?assertion dd:basisForAssertion <urn:rule/spatial_res/"+events[i]+"-"+str(Rules['Spatial_Resolution'][spatialRes[j]].name).replace(' ','+')+">)"+"\n"+"]"+"\n")
 
     f.write('\n')
 
