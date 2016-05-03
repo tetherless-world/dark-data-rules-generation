@@ -22,6 +22,13 @@ def runImprovedRules(compatibility,variable,eventType,i):
             fnew.write(str("(?datafield1 " + str(variable[x][1])+" " + str(variable[x][2])  +str(improvedRules['Sheet1'][variable[x][0]][i])+"),"+"\n"))
         if(not(str(improvedRules['Sheet1'][variable[x+1][0]][i])=='nan')):
             fnew.write(str("(?datafield2 " + str(variable[x][1])+" " + str(variable[x][2])  +str(improvedRules['Sheet1'][variable[x+1][0]][i])+"),"+"\n"))
+
+    print(fnew.name)
+    if(str(fnew.name) =='ImprovedTwoVarRules.txt'):
+        fnew.write("(?candidate dd:candidateVariable ?datafield1),"+"\n"
+            +"(?candidate dd:candidateVariable ?datafield2),"+"\n"
+            +"notEqual(?datafield1, ?datafield2),"+"\n")
+
     for y in range(0,len(eventType)):
         if(not(str(improvedRules['Sheet1'][eventType[y][0]][i])=='nan') and (not(str(improvedRules['Sheet1'][eventType[y][0]][i])=='0.0'))):
             fnew.write("(?candidate "+str(eventType[y][1])+" ?event),"+"\n"+
@@ -50,6 +57,8 @@ fnew.write("@prefix dd: <http://www.purl.org/twc/ns/darkdata#>."+"\n"+
 
 for i in range(0,len(improvedRules['Sheet1'])):
     runImprovedRules('high',var,events,i)
+
+
 fnew.close()
 
 writeFromExcel('OneVarRules.xlsx')

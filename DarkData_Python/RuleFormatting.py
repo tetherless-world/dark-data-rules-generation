@@ -75,3 +75,5 @@ def formatRules(filename,outputfile):
 formatRules('DarkData_Rules_Improved_two_var.txt','TwoVarRules.xlsx')
 formatRules('DarkData_Rules_Improved_one_var.txt','OneVarRules.xlsx')
 formatRules('DarkData_Rules_Improved_only_second_var.txt','OnlySecondVarRules.xlsx')
+#formatRules('DarkData_Rules_Improved_one_var_with_measurement.txt','OnlyMeasurementRules.xlsx')
+#formatRules('DarkData_Rules_Improved_one_var_with_spatial.txt','OnlySpatialRules.xlsx')

@@ -1,0 +1,25 @@
+rulesno	rules	support	confidence	lift
+71970	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+71993	{Spatial_Resolution1=0.25 deg.,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334246	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+334293	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587753	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587800	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587802	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587835	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+587837	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708589	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708670	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708675	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708742	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+1708747	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710472	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710476	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710515	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+2710543	{Spatial_Resolution1=0.25 deg.,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831323	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831329	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831391	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+5831441	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+8365292	{Spatial_Resolution1=0.25 deg.,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
+14455211	{Spatial_Resolution1=0.25 deg.,Instrument1=SSMI,VolcanicEruption=1,Hurricane=1,Flood=0,Fire=0} => {Service=TmAvMp}	0.000812564928052004	0.752380952380952	1.21406670981948
