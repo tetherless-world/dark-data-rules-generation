@@ -1,0 +1,18 @@
+@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.
+@prefix ddspatial:<http://darkdata.tw.rpi.edu/data/spatial-resolution/>.
+
+# Hurricane
+
+[hurricane-2+x+2.5+deg.:
+ (?candidate dd:candidateEvent ?event),
+ (?event rdf:type dd:Hurricane),
+ (?candidate dd:candidateVariable ?variable),
+ (?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
+ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+ ->
+ (?candidate dd:compatibilityAssertion ?assertion),
+ (?assertion rdf:type dd:CompatibilityAssertion),
+ (?assertion dd:compatibilityValue dd:strong_compatibility),
+ (?assertion dd:assertionConfidence "0.7"^^xsd:double),
+ (?assertion dd:basisForAssertion <urn:rule/spatial_res/hurricane-2+x+2.5+deg.>)
+]
