@@ -44,7 +44,7 @@ for i in range(0,len(events)):
         "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
         "(?variable dd:spatialResolution ddspatial:"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+"),"+"\n"+
-        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", ?variable)" +"\n"+
+        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+" ,"+"ddmeasurement:"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+", ?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
         "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"

@@ -7,7 +7,7 @@
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -20,7 +20,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -33,7 +33,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -46,7 +46,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -59,7 +59,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -72,7 +72,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -85,7 +85,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -98,7 +98,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -111,7 +111,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -124,7 +124,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -137,7 +137,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -150,7 +150,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -163,7 +163,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -176,7 +176,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -189,7 +189,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -202,7 +202,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -218,7 +218,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -231,7 +231,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -244,7 +244,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -257,7 +257,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -270,7 +270,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -283,7 +283,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -296,7 +296,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -309,7 +309,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -322,7 +322,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -335,7 +335,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -348,7 +348,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -361,7 +361,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -374,7 +374,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -387,7 +387,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -400,7 +400,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -413,7 +413,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -429,7 +429,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -442,7 +442,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -455,7 +455,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -468,7 +468,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -481,7 +481,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -494,7 +494,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -507,7 +507,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -520,7 +520,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -533,7 +533,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -546,7 +546,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -559,7 +559,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -572,7 +572,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -585,7 +585,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -598,7 +598,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -611,7 +611,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -624,7 +624,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -640,7 +640,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -653,7 +653,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -666,7 +666,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -679,7 +679,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -692,7 +692,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -705,7 +705,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -718,7 +718,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -731,7 +731,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -744,7 +744,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -757,7 +757,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -770,7 +770,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -783,7 +783,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -796,7 +796,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -809,7 +809,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -822,7 +822,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -835,7 +835,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -851,7 +851,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -864,7 +864,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -877,7 +877,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -890,7 +890,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -903,7 +903,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -916,7 +916,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -929,7 +929,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -942,7 +942,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -955,7 +955,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -968,7 +968,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -981,7 +981,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -994,7 +994,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1007,7 +1007,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1020,7 +1020,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1033,7 +1033,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1046,7 +1046,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1062,7 +1062,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1075,7 +1075,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1088,7 +1088,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1101,7 +1101,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1114,7 +1114,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1127,7 +1127,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1140,7 +1140,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1153,7 +1153,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1166,7 +1166,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1179,7 +1179,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1192,7 +1192,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1205,7 +1205,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1218,7 +1218,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1231,7 +1231,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1244,7 +1244,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1257,7 +1257,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1273,7 +1273,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1286,7 +1286,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1299,7 +1299,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1312,7 +1312,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1325,7 +1325,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1338,7 +1338,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1351,7 +1351,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1364,7 +1364,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1377,7 +1377,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1390,7 +1390,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1403,7 +1403,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1416,7 +1416,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1429,7 +1429,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1442,7 +1442,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1455,7 +1455,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1468,7 +1468,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:spatialResolution ddspatial:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
