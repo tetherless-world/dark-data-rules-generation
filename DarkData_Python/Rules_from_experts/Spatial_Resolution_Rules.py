@@ -3,7 +3,7 @@ import xlrd
 
 Rules = {}
 
-with pd.ExcelFile('X Applicability to Phenomena.xlsx') as xls:
+with pd.ExcelFile('X Applicability to Phenomena from experts.xlsx') as xls:
     Rules['Spatial_Resolution'] = pd.read_excel(xls, 'Spatial Resolution', skiprows=[8,9,10], index_col=None, na_values=['NA'])
     Rules['Measurement'] = pd.read_excel(xls, 'Measurement', skiprows=[8,9,10,11],index_col=0,na_values=['NA'])
 
@@ -19,19 +19,36 @@ def fun(i,x):
     y = (str(Rules['Spatial_Resolution'][spatialRes[x]][i]))
     yy = y.split(' ')
 
-    if(yy[0]=='GREAT'):
+    if(yy[0].upper()=='GREAT'):
         f.write('(?assertion dd:compatibilityValue dd:strong_compatibility),'+"\n")
-    elif(yy[0]=='GOOD'):
+        f.write('(?assertion dd:assertionConfidence \"'+"0.5"+'\"^^xsd:double),'+"\n")
+    elif(yy[0].upper()=='GOOD'):
         f.write('(?assertion dd:compatibilityValue dd:some_compatibility),'+"\n")
-    elif(yy[0]=='OK'):
+        f.write('(?assertion dd:assertionConfidence \"'+"0.5"+'\"^^xsd:double),'+"\n")
+    elif(yy[0].upper()=='OK'):
         f.write('(?assertion dd:compatibilityValue dd:slight_compatibility),'+"\n")
-    elif(yy[0]=='BAD'):
+        f.write('(?assertion dd:assertionConfidence \"'+"0.5"+'\"^^xsd:double),'+"\n")
+    elif(yy[0].upper()=='BAD'):
         f.write('(?assertion dd:compatibilityValue dd:negative_compatibility),'+"\n")
+        f.write('(?assertion dd:assertionConfidence \"'+"0.5"+'\"^^xsd:double),'+"\n")
+    elif(yy[0].upper()=='GREAT?'):
+        f.write('(?assertion dd:compatibilityValue dd:some_compatibility),'+"\n")
+        f.write('(?assertion dd:assertionConfidence \"'+"0.25"+'\"^^xsd:double),'+"\n")
+    elif(yy[0].upper()=='GOOD?'):
+        f.write('(?assertion dd:compatibilityValue dd:some_compatibility),'+"\n")
+        f.write('(?assertion dd:assertionConfidence \"'+"0.25"+'\"^^xsd:double),'+"\n")
+    elif(yy[0].upper()=='OK?'):
+        f.write('(?assertion dd:compatibilityValue dd:slight_compatibility),'+"\n")
+        f.write('(?assertion dd:assertionConfidence \"'+"0.25"+'\"^^xsd:double),'+"\n")
+    elif(yy[0].upper()=='BAD?'):
+        f.write('(?assertion dd:compatibilityValue dd:negative_compatibility),'+"\n")
+        f.write('(?assertion dd:assertionConfidence \"'+"0.25"+'\"^^xsd:double),'+"\n")
     else:
         f.write('(?assertion dd:compatibilityValue dd:indifferent_compatibility),'+"\n")
+        f.write('(?assertion dd:assertionConfidence \"'+"0.5"+'\"^^xsd:double),'+"\n")
 
-    f.write('(?assertion dd:assertionConfidence \"'+yy[1]+'\"^^xsd:double),'+"\n")
-
+    #f.write('(?assertion dd:assertionConfidence \"'+yy[1]+'\"^^xsd:double),'+"\n")
+    #f.write('(?assertion dd:assertionConfidence \"'+"0.5"+'\"^^xsd:double),'+"\n")
 f = open('spatial_res.rules','w')
 f.write('@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.'+'\n'+
     '@prefix ddspatial:<http://darkdata.tw.rpi.edu/data/spatial-resolution/>.'+"\n")

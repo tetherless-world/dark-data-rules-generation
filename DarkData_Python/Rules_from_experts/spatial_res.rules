@@ -11,8 +11,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:2+x+2.5+deg. 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-2+x+2.5+deg.>)
 ]
 [Hurricane-1.0+x+1.25+deg.:
@@ -24,8 +24,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1.0+x+1.25+de
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-1.0+x+1.25+deg.>)
 ]
 [Hurricane-1+x+1.25+deg.:
@@ -38,7 +38,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1+x+1.25+deg.
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-1+x+1.25+deg.>)
 ]
 [Hurricane-0.5+x+0.625+deg.:
@@ -51,7 +51,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+x+0.625+d
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.5+x+0.625+deg.>)
 ]
 [Hurricane-0.125+deg.:
@@ -63,8 +63,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.125+deg. ,?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.125+deg.>)
 ]
 [Hurricane-1+deg.:
@@ -77,7 +77,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1+deg. ,?vari
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-1+deg.>)
 ]
 [Hurricane-0.1+deg.:
@@ -89,8 +89,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.1+deg. ,?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.1+deg.>)
 ]
 [Hurricane-0.667+x+1.25+deg.:
@@ -102,8 +102,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.667+x+1.25+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.667+x+1.25+deg.>)
 ]
 [Hurricane-0.5+deg.:
@@ -115,8 +115,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+deg. ,?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.5+deg.>)
 ]
 [Hurricane-5000+m:
@@ -128,8 +128,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:5000+m ,?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-5000+m>)
 ]
 [Hurricane-0.05+deg.:
@@ -141,8 +141,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.05+deg. ,?v
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.05+deg.>)
 ]
 [Hurricane-5600+m:
@@ -154,8 +154,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:5600+m ,?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-5600+m>)
 ]
 [Hurricane-0.25+deg.:
@@ -167,8 +167,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.25+deg. ,?v
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.25+deg.>)
 ]
 [Hurricane-0.5+x+0.667+deg.:
@@ -180,8 +180,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+x+0.667+d
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-0.5+x+0.667+deg.>)
 ]
 [Hurricane-1.25+deg.:
@@ -194,7 +194,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1.25+deg. ,?v
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Hurricane-1.25+deg.>)
 ]
 
@@ -209,8 +209,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:2+x+2.5+d
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-2+x+2.5+deg.>)
 ]
 [TropicalStorm-1.0+x+1.25+deg.:
@@ -222,8 +222,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1.0+x+1.2
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-1.0+x+1.25+deg.>)
 ]
 [TropicalStorm-1+x+1.25+deg.:
@@ -236,7 +236,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1+x+1.25+
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-1+x+1.25+deg.>)
 ]
 [TropicalStorm-0.5+x+0.625+deg.:
@@ -249,7 +249,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+x+0.6
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.5+x+0.625+deg.>)
 ]
 [TropicalStorm-0.125+deg.:
@@ -261,8 +261,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.125+deg
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.125+deg.>)
 ]
 [TropicalStorm-1+deg.:
@@ -275,7 +275,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1+deg. ,?
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-1+deg.>)
 ]
 [TropicalStorm-0.1+deg.:
@@ -287,8 +287,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.1+deg. 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.1+deg.>)
 ]
 [TropicalStorm-0.667+x+1.25+deg.:
@@ -300,8 +300,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.667+x+1
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.667+x+1.25+deg.>)
 ]
 [TropicalStorm-0.5+deg.:
@@ -313,8 +313,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+deg. 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.5+deg.>)
 ]
 [TropicalStorm-5000+m:
@@ -326,8 +326,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:5000+m ,?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-5000+m>)
 ]
 [TropicalStorm-0.05+deg.:
@@ -339,8 +339,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.05+deg.
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.05+deg.>)
 ]
 [TropicalStorm-5600+m:
@@ -352,8 +352,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:5600+m ,?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-5600+m>)
 ]
 [TropicalStorm-0.25+deg.:
@@ -365,8 +365,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.25+deg.
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.25+deg.>)
 ]
 [TropicalStorm-0.5+x+0.667+deg.:
@@ -378,8 +378,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+x+0.6
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-0.5+x+0.667+deg.>)
 ]
 [TropicalStorm-1.25+deg.:
@@ -392,7 +392,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1.25+deg.
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/TropicalStorm-1.25+deg.>)
 ]
 
@@ -407,8 +407,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:2+x+2.
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-2+x+2.5+deg.>)
 ]
 [VolcanicEruption-1.0+x+1.25+deg.:
@@ -420,8 +420,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1.0+x+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-1.0+x+1.25+deg.>)
 ]
 [VolcanicEruption-1+x+1.25+deg.:
@@ -434,7 +434,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1+x+1.
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-1+x+1.25+deg.>)
 ]
 [VolcanicEruption-0.5+x+0.625+deg.:
@@ -446,8 +446,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+x+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.5+x+0.625+deg.>)
 ]
 [VolcanicEruption-0.125+deg.:
@@ -459,8 +459,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.125+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.125+deg.>)
 ]
 [VolcanicEruption-1+deg.:
@@ -473,7 +473,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1+deg.
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-1+deg.>)
 ]
 [VolcanicEruption-0.1+deg.:
@@ -485,8 +485,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.1+de
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.1+deg.>)
 ]
 [VolcanicEruption-0.667+x+1.25+deg.:
@@ -498,8 +498,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.667+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.667+x+1.25+deg.>)
 ]
 [VolcanicEruption-0.5+deg.:
@@ -511,8 +511,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+de
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.5+deg.>)
 ]
 [VolcanicEruption-5000+m:
@@ -524,8 +524,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:5000+m
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-5000+m>)
 ]
 [VolcanicEruption-0.05+deg.:
@@ -537,8 +537,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.05+d
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.05+deg.>)
 ]
 [VolcanicEruption-5600+m:
@@ -550,8 +550,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:5600+m
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-5600+m>)
 ]
 [VolcanicEruption-0.25+deg.:
@@ -564,7 +564,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.25+d
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.25+deg.>)
 ]
 [VolcanicEruption-0.5+x+0.667+deg.:
@@ -576,8 +576,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+x+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-0.5+x+0.667+deg.>)
 ]
 [VolcanicEruption-1.25+deg.:
@@ -590,7 +590,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1.25+d
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/VolcanicEruption-1.25+deg.>)
 ]
 
@@ -605,8 +605,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:2+x+2.5+deg. ,?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-2+x+2.5+deg.>)
 ]
 [Flood-1.0+x+1.25+deg.:
@@ -619,7 +619,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1.0+x+1.25+deg. ,
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-1.0+x+1.25+deg.>)
 ]
 [Flood-1+x+1.25+deg.:
@@ -631,8 +631,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1+x+1.25+deg. ,?v
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-1+x+1.25+deg.>)
 ]
 [Flood-0.5+x+0.625+deg.:
@@ -644,8 +644,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+x+0.625+deg. 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.25"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.5+x+0.625+deg.>)
 ]
 [Flood-0.125+deg.:
@@ -657,8 +657,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.125+deg. ,?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.125+deg.>)
 ]
 [Flood-1+deg.:
@@ -670,8 +670,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1+deg. ,?variable
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-1+deg.>)
 ]
 [Flood-0.1+deg.:
@@ -683,8 +683,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.1+deg. ,?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.1+deg.>)
 ]
 [Flood-0.667+x+1.25+deg.:
@@ -696,8 +696,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.667+x+1.25+deg.
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.667+x+1.25+deg.>)
 ]
 [Flood-0.5+deg.:
@@ -709,8 +709,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+deg. ,?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.5+deg.>)
 ]
 [Flood-5000+m:
@@ -722,8 +722,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:5000+m ,?variable
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-5000+m>)
 ]
 [Flood-0.05+deg.:
@@ -735,8 +735,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.05+deg. ,?varia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.05+deg.>)
 ]
 [Flood-5600+m:
@@ -748,8 +748,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:5600+m ,?variable
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-5600+m>)
 ]
 [Flood-0.25+deg.:
@@ -761,8 +761,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.25+deg. ,?varia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.25+deg.>)
 ]
 [Flood-0.5+x+0.667+deg.:
@@ -774,8 +774,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+x+0.667+deg. 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.25"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-0.5+x+0.667+deg.>)
 ]
 [Flood-1.25+deg.:
@@ -787,8 +787,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1.25+deg. ,?varia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Flood-1.25+deg.>)
 ]
 
@@ -803,8 +803,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:2+x+2.5+deg. ,?var
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-2+x+2.5+deg.>)
 ]
 [Fire-1.0+x+1.25+deg.:
@@ -816,8 +816,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1.0+x+1.25+deg. ,?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1.0+x+1.25+deg.>)
 ]
 [Fire-1+x+1.25+deg.:
@@ -830,7 +830,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1+x+1.25+deg. ,?va
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1+x+1.25+deg.>)
 ]
 [Fire-0.5+x+0.625+deg.:
@@ -842,8 +842,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.5+x+0.625+deg. ,
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.5+x+0.625+deg.>)
 ]
 [Fire-0.125+deg.:
@@ -855,8 +855,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.125+deg. ,?varia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.125+deg.>)
 ]
 [Fire-1+deg.:
@@ -869,7 +869,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1+deg. ,?variable)
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1+deg.>)
 ]
 [Fire-0.1+deg.:
@@ -881,8 +881,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.1+deg. ,?variabl
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.1+deg.>)
 ]
 [Fire-0.667+x+1.25+deg.:
@@ -894,8 +894,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.667+x+1.25+deg. 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.667+x+1.25+deg.>)
 ]
 [Fire-0.5+deg.:
@@ -907,8 +907,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.5+deg. ,?variabl
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.5+deg.>)
 ]
 [Fire-5000+m:
@@ -920,8 +920,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:5000+m ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-5000+m>)
 ]
 [Fire-0.05+deg.:
@@ -933,8 +933,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.05+deg. ,?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.05+deg.>)
 ]
 [Fire-5600+m:
@@ -946,8 +946,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:5600+m ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-5600+m>)
 ]
 [Fire-0.25+deg.:
@@ -959,8 +959,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.25+deg. ,?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.25+deg.>)
 ]
 [Fire-0.5+x+0.667+deg.:
@@ -972,8 +972,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.5+x+0.667+deg. ,
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.5+x+0.667+deg.>)
 ]
 [Fire-1.25+deg.:
@@ -986,7 +986,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1.25+deg. ,?variab
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1.25+deg.>)
 ]
 
@@ -1001,8 +1001,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:2+x+2.5+deg. 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-2+x+2.5+deg.>)
 ]
 [DustStorm-1.0+x+1.25+deg.:
@@ -1014,8 +1014,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1.0+x+1.25+de
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-1.0+x+1.25+deg.>)
 ]
 [DustStorm-1+x+1.25+deg.:
@@ -1028,7 +1028,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1+x+1.25+deg.
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-1+x+1.25+deg.>)
 ]
 [DustStorm-0.5+x+0.625+deg.:
@@ -1041,7 +1041,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+x+0.625+d
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.5+x+0.625+deg.>)
 ]
 [DustStorm-0.125+deg.:
@@ -1053,8 +1053,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.125+deg. ,?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.125+deg.>)
 ]
 [DustStorm-1+deg.:
@@ -1067,7 +1067,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1+deg. ,?vari
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-1+deg.>)
 ]
 [DustStorm-0.1+deg.:
@@ -1079,8 +1079,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.1+deg. ,?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.1+deg.>)
 ]
 [DustStorm-0.667+x+1.25+deg.:
@@ -1092,8 +1092,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.667+x+1.25+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.667+x+1.25+deg.>)
 ]
 [DustStorm-0.5+deg.:
@@ -1105,8 +1105,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+deg. ,?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.5+deg.>)
 ]
 [DustStorm-5000+m:
@@ -1118,8 +1118,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:5000+m ,?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-5000+m>)
 ]
 [DustStorm-0.05+deg.:
@@ -1131,8 +1131,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.05+deg. ,?v
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.05+deg.>)
 ]
 [DustStorm-5600+m:
@@ -1144,8 +1144,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:5600+m ,?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-5600+m>)
 ]
 [DustStorm-0.25+deg.:
@@ -1157,8 +1157,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.25+deg. ,?v
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.25+deg.>)
 ]
 [DustStorm-0.5+x+0.667+deg.:
@@ -1170,8 +1170,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+x+0.667+d
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-0.5+x+0.667+deg.>)
 ]
 [DustStorm-1.25+deg.:
@@ -1184,7 +1184,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1.25+deg. ,?v
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/DustStorm-1.25+deg.>)
 ]
 
@@ -1199,8 +1199,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:2+x+2.5+deg. ,?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:negative_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-2+x+2.5+deg.>)
 ]
 [Drought-1.0+x+1.25+deg.:
@@ -1212,8 +1212,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1.0+x+1.25+deg.
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-1.0+x+1.25+deg.>)
 ]
 [Drought-1+x+1.25+deg.:
@@ -1226,7 +1226,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1+x+1.25+deg. ,
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-1+x+1.25+deg.>)
 ]
 [Drought-0.5+x+0.625+deg.:
@@ -1239,7 +1239,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+x+0.625+deg
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.5+x+0.625+deg.>)
 ]
 [Drought-0.125+deg.:
@@ -1251,8 +1251,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.125+deg. ,?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.125+deg.>)
 ]
 [Drought-1+deg.:
@@ -1265,7 +1265,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1+deg. ,?variab
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-1+deg.>)
 ]
 [Drought-0.1+deg.:
@@ -1277,8 +1277,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.1+deg. ,?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.1+deg.>)
 ]
 [Drought-0.667+x+1.25+deg.:
@@ -1290,8 +1290,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.667+x+1.25+de
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.667+x+1.25+deg.>)
 ]
 [Drought-0.5+deg.:
@@ -1303,8 +1303,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+deg. ,?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.5+deg.>)
 ]
 [Drought-5000+m:
@@ -1316,8 +1316,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:5000+m ,?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-5000+m>)
 ]
 [Drought-0.05+deg.:
@@ -1329,8 +1329,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.05+deg. ,?var
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.05+deg.>)
 ]
 [Drought-5600+m:
@@ -1342,8 +1342,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:5600+m ,?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-5600+m>)
 ]
 [Drought-0.25+deg.:
@@ -1355,8 +1355,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.25+deg. ,?var
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.25+deg.>)
 ]
 [Drought-0.5+x+0.667+deg.:
@@ -1368,8 +1368,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+x+0.667+deg
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-0.5+x+0.667+deg.>)
 ]
 [Drought-1.25+deg.:
@@ -1382,7 +1382,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1.25+deg. ,?var
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/spatial_res/Drought-1.25+deg.>)
 ]
 

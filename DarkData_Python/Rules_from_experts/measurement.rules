@@ -11,8 +11,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Sensible+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Sensible+Heat+Flux>)
 ]
 [Hurricane-Wind+Stress+Direction:
@@ -24,8 +24,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Wind+Stre
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Wind+Stress+Direction>)
 ]
 [Hurricane-Latent+Heat+Flux:
@@ -37,8 +37,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Latent+He
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Latent+Heat+Flux>)
 ]
 [Hurricane-Wind:
@@ -50,8 +50,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Wind, ?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Wind>)
 ]
 [Hurricane-Albedo:
@@ -63,8 +63,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Albedo, ?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Albedo>)
 ]
 [Hurricane-Wind+Velocity:
@@ -76,8 +76,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Wind+Velo
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Wind+Velocity>)
 ]
 [Hurricane-Dust:
@@ -89,8 +89,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Dust, ?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Dust>)
 ]
 [Hurricane-NO2:
@@ -102,8 +102,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:NO2, ?var
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-NO2>)
 ]
 [Hurricane-CO2:
@@ -115,8 +115,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:CO2, ?var
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-CO2>)
 ]
 [Hurricane-Incident+Radiation:
@@ -128,8 +128,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Incident+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Incident+Radiation>)
 ]
 [Hurricane-Ground+Heat:
@@ -141,8 +141,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Ground+He
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Ground+Heat>)
 ]
 [Hurricane-Statistics:
@@ -154,8 +154,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Statistic
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Statistics>)
 ]
 [Hurricane-Geopotential:
@@ -167,8 +167,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Geopotent
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Geopotential>)
 ]
 [Hurricane-Soil+Temperature:
@@ -180,8 +180,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Soil+Temp
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Soil+Temperature>)
 ]
 [Hurricane-Heat+Flux:
@@ -193,8 +193,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Heat+Flux
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Heat+Flux>)
 ]
 [Hurricane-Soil+Moisture:
@@ -207,7 +207,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Soil+Mois
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Soil+Moisture>)
 ]
 
@@ -222,8 +222,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Sensi
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Sensible+Heat+Flux>)
 ]
 [TropicalStorm-Wind+Stress+Direction:
@@ -235,8 +235,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Wind+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Wind+Stress+Direction>)
 ]
 [TropicalStorm-Latent+Heat+Flux:
@@ -248,8 +248,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Laten
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Latent+Heat+Flux>)
 ]
 [TropicalStorm-Wind:
@@ -261,8 +261,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Wind,
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Wind>)
 ]
 [TropicalStorm-Albedo:
@@ -274,8 +274,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Albed
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Albedo>)
 ]
 [TropicalStorm-Wind+Velocity:
@@ -287,8 +287,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Wind+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Wind+Velocity>)
 ]
 [TropicalStorm-Dust:
@@ -300,8 +300,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Dust,
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Dust>)
 ]
 [TropicalStorm-NO2:
@@ -313,8 +313,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:NO2, 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-NO2>)
 ]
 [TropicalStorm-CO2:
@@ -326,8 +326,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:CO2, 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-CO2>)
 ]
 [TropicalStorm-Incident+Radiation:
@@ -339,8 +339,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Incid
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Incident+Radiation>)
 ]
 [TropicalStorm-Ground+Heat:
@@ -352,8 +352,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Groun
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Ground+Heat>)
 ]
 [TropicalStorm-Statistics:
@@ -365,8 +365,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Stati
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Statistics>)
 ]
 [TropicalStorm-Geopotential:
@@ -378,8 +378,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Geopo
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Geopotential>)
 ]
 [TropicalStorm-Soil+Temperature:
@@ -391,8 +391,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Soil+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Soil+Temperature>)
 ]
 [TropicalStorm-Heat+Flux:
@@ -404,8 +404,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Heat+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Heat+Flux>)
 ]
 [TropicalStorm-Soil+Moisture:
@@ -418,7 +418,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Soil+
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Soil+Moisture>)
 ]
 
@@ -433,8 +433,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Se
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Sensible+Heat+Flux>)
 ]
 [VolcanicEruption-Wind+Stress+Direction:
@@ -446,8 +446,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Wi
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Wind+Stress+Direction>)
 ]
 [VolcanicEruption-Latent+Heat+Flux:
@@ -459,8 +459,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:La
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Latent+Heat+Flux>)
 ]
 [VolcanicEruption-Wind:
@@ -472,8 +472,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Wi
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Wind>)
 ]
 [VolcanicEruption-Albedo:
@@ -485,8 +485,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Al
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Albedo>)
 ]
 [VolcanicEruption-Wind+Velocity:
@@ -498,8 +498,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Wi
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Wind+Velocity>)
 ]
 [VolcanicEruption-Dust:
@@ -511,8 +511,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Du
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Dust>)
 ]
 [VolcanicEruption-NO2:
@@ -524,8 +524,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:NO
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-NO2>)
 ]
 [VolcanicEruption-CO2:
@@ -537,8 +537,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:CO
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-CO2>)
 ]
 [VolcanicEruption-Incident+Radiation:
@@ -550,8 +550,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:In
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Incident+Radiation>)
 ]
 [VolcanicEruption-Ground+Heat:
@@ -563,8 +563,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Gr
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Ground+Heat>)
 ]
 [VolcanicEruption-Statistics:
@@ -576,8 +576,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:St
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Statistics>)
 ]
 [VolcanicEruption-Geopotential:
@@ -589,8 +589,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Ge
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Geopotential>)
 ]
 [VolcanicEruption-Soil+Temperature:
@@ -602,8 +602,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:So
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Soil+Temperature>)
 ]
 [VolcanicEruption-Heat+Flux:
@@ -615,8 +615,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:He
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Heat+Flux>)
 ]
 [VolcanicEruption-Soil+Moisture:
@@ -628,8 +628,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:So
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Soil+Moisture>)
 ]
 
@@ -644,8 +644,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Sensible+Heat
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Sensible+Heat+Flux>)
 ]
 [Flood-Wind+Stress+Direction:
@@ -657,8 +657,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Wind+Stress+D
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Wind+Stress+Direction>)
 ]
 [Flood-Latent+Heat+Flux:
@@ -670,8 +670,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Latent+Heat+F
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Latent+Heat+Flux>)
 ]
 [Flood-Wind:
@@ -683,8 +683,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Wind, ?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Wind>)
 ]
 [Flood-Albedo:
@@ -696,8 +696,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Albedo, ?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Albedo>)
 ]
 [Flood-Wind+Velocity:
@@ -710,7 +710,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Wind+Velocity
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Wind+Velocity>)
 ]
 [Flood-Dust:
@@ -722,8 +722,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Dust, ?variab
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Dust>)
 ]
 [Flood-NO2:
@@ -735,8 +735,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:NO2, ?variabl
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-NO2>)
 ]
 [Flood-CO2:
@@ -748,8 +748,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:CO2, ?variabl
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:some_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-CO2>)
 ]
 [Flood-Incident+Radiation:
@@ -761,8 +761,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Incident+Radi
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Incident+Radiation>)
 ]
 [Flood-Ground+Heat:
@@ -774,8 +774,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Ground+Heat, 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Ground+Heat>)
 ]
 [Flood-Statistics:
@@ -787,8 +787,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Statistics, ?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Statistics>)
 ]
 [Flood-Geopotential:
@@ -800,8 +800,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Geopotential,
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Geopotential>)
 ]
 [Flood-Soil+Temperature:
@@ -813,8 +813,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Soil+Temperat
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Soil+Temperature>)
 ]
 [Flood-Heat+Flux:
@@ -826,8 +826,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Heat+Flux, ?v
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Heat+Flux>)
 ]
 [Flood-Soil+Moisture:
@@ -840,7 +840,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Soil+Moisture
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Soil+Moisture>)
 ]
 
@@ -855,8 +855,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Sensible+Heat+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Sensible+Heat+Flux>)
 ]
 [Fire-Wind+Stress+Direction:
@@ -868,8 +868,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind+Stress+Di
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Wind+Stress+Direction>)
 ]
 [Fire-Latent+Heat+Flux:
@@ -881,8 +881,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Latent+Heat+Fl
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Latent+Heat+Flux>)
 ]
 [Fire-Wind:
@@ -894,8 +894,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind, ?variabl
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Wind>)
 ]
 [Fire-Albedo:
@@ -907,8 +907,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Albedo, ?varia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Albedo>)
 ]
 [Fire-Wind+Velocity:
@@ -920,8 +920,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind+Velocity,
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Wind+Velocity>)
 ]
 [Fire-Dust:
@@ -933,8 +933,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Dust, ?variabl
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Dust>)
 ]
 [Fire-NO2:
@@ -947,7 +947,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:NO2, ?variable
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-NO2>)
 ]
 [Fire-CO2:
@@ -960,7 +960,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:CO2, ?variable
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-CO2>)
 ]
 [Fire-Incident+Radiation:
@@ -972,8 +972,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Incident+Radia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Incident+Radiation>)
 ]
 [Fire-Ground+Heat:
@@ -985,8 +985,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Ground+Heat, ?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Ground+Heat>)
 ]
 [Fire-Statistics:
@@ -998,8 +998,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Statistics, ?v
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Statistics>)
 ]
 [Fire-Geopotential:
@@ -1011,8 +1011,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Geopotential, 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Geopotential>)
 ]
 [Fire-Soil+Temperature:
@@ -1024,8 +1024,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Soil+Temperatu
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Soil+Temperature>)
 ]
 [Fire-Heat+Flux:
@@ -1037,8 +1037,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Heat+Flux, ?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Heat+Flux>)
 ]
 [Fire-Soil+Moisture:
@@ -1051,7 +1051,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Soil+Moisture,
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Soil+Moisture>)
 ]
 
@@ -1066,8 +1066,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Sensible+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Sensible+Heat+Flux>)
 ]
 [DustStorm-Wind+Stress+Direction:
@@ -1079,8 +1079,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Wind+Stre
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Wind+Stress+Direction>)
 ]
 [DustStorm-Latent+Heat+Flux:
@@ -1092,8 +1092,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Latent+He
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Latent+Heat+Flux>)
 ]
 [DustStorm-Wind:
@@ -1105,8 +1105,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Wind, ?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Wind>)
 ]
 [DustStorm-Albedo:
@@ -1118,8 +1118,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Albedo, ?
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Albedo>)
 ]
 [DustStorm-Wind+Velocity:
@@ -1131,8 +1131,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Wind+Velo
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Wind+Velocity>)
 ]
 [DustStorm-Dust:
@@ -1144,8 +1144,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Dust, ?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:strong_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Dust>)
 ]
 [DustStorm-NO2:
@@ -1157,8 +1157,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:NO2, ?var
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-NO2>)
 ]
 [DustStorm-CO2:
@@ -1170,8 +1170,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:CO2, ?var
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-CO2>)
 ]
 [DustStorm-Incident+Radiation:
@@ -1183,8 +1183,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Incident+
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Incident+Radiation>)
 ]
 [DustStorm-Ground+Heat:
@@ -1196,8 +1196,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Ground+He
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Ground+Heat>)
 ]
 [DustStorm-Statistics:
@@ -1209,8 +1209,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Statistic
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Statistics>)
 ]
 [DustStorm-Geopotential:
@@ -1222,8 +1222,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Geopotent
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Geopotential>)
 ]
 [DustStorm-Soil+Temperature:
@@ -1235,8 +1235,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Soil+Temp
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Soil+Temperature>)
 ]
 [DustStorm-Heat+Flux:
@@ -1248,8 +1248,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Heat+Flux
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Heat+Flux>)
 ]
 [DustStorm-Soil+Moisture:
@@ -1261,8 +1261,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Soil+Mois
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Soil+Moisture>)
 ]
 
@@ -1277,8 +1277,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Sensible+He
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Sensible+Heat+Flux>)
 ]
 [Drought-Wind+Stress+Direction:
@@ -1290,8 +1290,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Wind+Stress
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Wind+Stress+Direction>)
 ]
 [Drought-Latent+Heat+Flux:
@@ -1303,8 +1303,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Latent+Heat
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Latent+Heat+Flux>)
 ]
 [Drought-Wind:
@@ -1316,8 +1316,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Wind, ?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Wind>)
 ]
 [Drought-Albedo:
@@ -1329,8 +1329,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Albedo, ?va
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Albedo>)
 ]
 [Drought-Wind+Velocity:
@@ -1343,7 +1343,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Wind+Veloci
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Wind+Velocity>)
 ]
 [Drought-Dust:
@@ -1355,8 +1355,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Dust, ?vari
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:slight_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Dust>)
 ]
 [Drought-NO2:
@@ -1368,8 +1368,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:NO2, ?varia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-NO2>)
 ]
 [Drought-CO2:
@@ -1381,8 +1381,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:CO2, ?varia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-CO2>)
 ]
 [Drought-Incident+Radiation:
@@ -1394,8 +1394,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Incident+Ra
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Incident+Radiation>)
 ]
 [Drought-Ground+Heat:
@@ -1407,8 +1407,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Ground+Heat
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Ground+Heat>)
 ]
 [Drought-Statistics:
@@ -1420,8 +1420,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Statistics,
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Statistics>)
 ]
 [Drought-Geopotential:
@@ -1433,8 +1433,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Geopotentia
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:some_compatibility),
-(?assertion dd:assertionConfidence "(0.7)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Geopotential>)
 ]
 [Drought-Soil+Temperature:
@@ -1446,8 +1446,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Soil+Temper
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:negative_compatibility),
-(?assertion dd:assertionConfidence "(0.3)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Soil+Temperature>)
 ]
 [Drought-Heat+Flux:
@@ -1459,8 +1459,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Heat+Flux, 
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
-(?assertion dd:compatibilityValue dd:slight_compatibility),
-(?assertion dd:assertionConfidence "(0.5)"^^xsd:double),
+(?assertion dd:compatibilityValue dd:indifferent_compatibility),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Heat+Flux>)
 ]
 [Drought-Soil+Moisture:
@@ -1473,7 +1473,7 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Soil+Moistu
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
-(?assertion dd:assertionConfidence "(0.8)"^^xsd:double),
+(?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Soil+Moisture>)
 ]
 

@@ -8,7 +8,7 @@
  (?event rdf:type dd:Hurricane),
  (?candidate dd:candidateVariable ?variable),
  (?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
- makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ?variable)
+ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:2+x+2.5+deg.,?variable)
  ->
  (?candidate dd:compatibilityAssertion ?assertion),
  (?assertion rdf:type dd:CompatibilityAssertion),
