@@ -60,7 +60,7 @@ for i in range(0,len(events)):
         f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
         "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:spatialResolution ddspatial:"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+"),"+"\n"+
+        "(?variable dd:spatialResolution ddmeasurement:"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+"),"+"\n"+
         "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+" ,"+"ddmeasurement:"+str(Rules['Measurement'][measurements[j]].name).replace(' ','+')+", ?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
