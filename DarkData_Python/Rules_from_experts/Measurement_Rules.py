@@ -11,13 +11,15 @@ with pd.ExcelFile('X Applicability to Phenomena from experts.xlsx') as xls:
 
 #print(Rules['Spatial_Resolution'])
 #print(Rules['Measurement']['Sensible Heat Flux'])
-
-measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture']
+#measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture']
+measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture','Precipitation','AOD','Air Pressure ','Air Moisture','Ozone','SO2','air temperature ','CO']
 events = ['Hurricane','TropicalStorm','VolcanicEruption','Flood','Fire','DustStorm','Drought']
 
 def fun(i,x,sheetname):
-
+    #try:
     y = (str(Rules[sheetname][measurements[x]][i]))
+    #except KeyError:
+    #    print("didnt work")
     yy = y.split(' ')
 
     if(yy[0].upper()=='GREAT'):
@@ -55,24 +57,26 @@ f.write('@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.'+'\n'+
     '@prefix ddmeasurement: <http://darkdata.tw.rpi.edu/data/measurement/>.'+"\n")
 
 sheetname1 = 'Measurement_Li'
+try:
+    for i in range(0,len(events)):
+        f.write("\n"+"#"+events[i]+"\n")
+        for j in range(0,len(measurements)):
+            f.write("["+events[i]+"-"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+":"+"\n")
+            f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
+            "(?event rdf:type dd:"+events[i]+"),"+"\n"+
+            "(?candidate dd:candidateVariable ?variable),"+"\n"+
+            "(?variable dd:measurement ddmeasurement:"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+"),"+"\n"+
+            "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+" ,"+"ddmeasurement:"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+", ?variable)" +"\n"+
+            "->"+"\n"+
+            "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
+            "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"
+            )
+            fun(i,j,sheetname1)
+            f.write("(?assertion dd:basisForAssertion <urn:rule/measurement/"+events[i]+"-"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+">"+")"+"\n"+"]"+"\n")
 
-for i in range(0,len(events)):
-    f.write("\n"+"#"+events[i]+"\n")
-    for j in range(0,len(measurements)):
-        f.write("["+events[i]+"-"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+":"+"\n")
-        f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
-        "(?event rdf:type dd:"+events[i]+"),"+"\n"+
-        "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:measurement ddmeasurement:"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+"),"+"\n"+
-        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+" ,"+"ddmeasurement:"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+", ?variable)" +"\n"+
-        "->"+"\n"+
-        "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
-        "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"
-        )
-        fun(i,j,sheetname1)
-        f.write("(?assertion dd:basisForAssertion <urn:rule/measurement/"+events[i]+"-"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+">"+")"+"\n"+"]"+"\n")
-
-    f.write('\n')
+        f.write('\n')
+except KeyError:
+    print("didnt work")
 f.close()
 
 
