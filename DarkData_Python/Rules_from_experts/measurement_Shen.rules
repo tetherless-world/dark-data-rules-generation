@@ -1261,318 +1261,318 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:CO, ?variable
 ]
 
 
-#Fire
-[Fire-Sensible+Heat+Flux:
+#Wildfire
+[Wildfire-Sensible+Heat+Flux:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Sensible+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Sensible+Heat+Flux, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Sensible+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Sensible+Heat+Flux>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Sensible+Heat+Flux>)
 ]
-[Fire-Wind+Stress+Direction:
+[Wildfire-Wind+Stress+Direction:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Wind+Stress+Direction),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind+Stress+Direction, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Wind+Stress+Direction, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Wind+Stress+Direction>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Wind+Stress+Direction>)
 ]
-[Fire-Latent+Heat+Flux:
+[Wildfire-Latent+Heat+Flux:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Latent+Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Latent+Heat+Flux, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Latent+Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Latent+Heat+Flux>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Latent+Heat+Flux>)
 ]
-[Fire-Wind:
+[Wildfire-Wind:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Wind),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Wind, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Wind>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Wind>)
 ]
-[Fire-Albedo:
+[Wildfire-Albedo:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Albedo),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Albedo, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Albedo, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Albedo>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Albedo>)
 ]
-[Fire-Wind+Velocity:
+[Wildfire-Wind+Velocity:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Wind+Velocity),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Wind+Velocity, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Wind+Velocity, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Wind+Velocity>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Wind+Velocity>)
 ]
-[Fire-Dust:
+[Wildfire-Dust:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Dust),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Dust, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Dust, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Dust>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Dust>)
 ]
-[Fire-NO2:
+[Wildfire-NO2:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:NO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:NO2, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:NO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-NO2>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-NO2>)
 ]
-[Fire-CO2:
+[Wildfire-CO2:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:CO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:CO2, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:CO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-CO2>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-CO2>)
 ]
-[Fire-Incident+Radiation:
+[Wildfire-Incident+Radiation:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Incident+Radiation),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Incident+Radiation, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Incident+Radiation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Incident+Radiation>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Incident+Radiation>)
 ]
-[Fire-Ground+Heat:
+[Wildfire-Ground+Heat:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Ground+Heat),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Ground+Heat, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Ground+Heat, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Ground+Heat>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Ground+Heat>)
 ]
-[Fire-Statistics:
+[Wildfire-Statistics:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Statistics),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Statistics, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Statistics, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Statistics>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Statistics>)
 ]
-[Fire-Geopotential:
+[Wildfire-Geopotential:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Geopotential),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Geopotential, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Geopotential, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Geopotential>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Geopotential>)
 ]
-[Fire-Soil+Temperature:
+[Wildfire-Soil+Temperature:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Soil+Temperature),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Soil+Temperature, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Soil+Temperature, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Soil+Temperature>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Soil+Temperature>)
 ]
-[Fire-Heat+Flux:
+[Wildfire-Heat+Flux:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Heat+Flux),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Heat+Flux, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Heat+Flux, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Heat+Flux>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Heat+Flux>)
 ]
-[Fire-Soil+Moisture:
+[Wildfire-Soil+Moisture:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Soil+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Soil+Moisture, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Soil+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Soil+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Soil+Moisture>)
 ]
-[Fire-Precipitation:
+[Wildfire-Precipitation:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Precipitation),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Precipitation, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Precipitation, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Precipitation>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Precipitation>)
 ]
-[Fire-Aerosol+Optical+Depth:
+[Wildfire-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Aerosol+Optical+Depth>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Aerosol+Optical+Depth>)
 ]
-[Fire-Air+Pressure+:
+[Wildfire-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Air+Pressure+),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Air+Pressure+, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Air+Pressure+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Air+Pressure+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Air+Pressure+>)
 ]
-[Fire-Atmospheric+Moisture:
+[Wildfire-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Atmospheric+Moisture, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Atmospheric+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Atmospheric+Moisture>)
 ]
-[Fire-Ozone:
+[Wildfire-Ozone:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Ozone),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Ozone, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Ozone, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Ozone>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Ozone>)
 ]
-[Fire-SO2:
+[Wildfire-SO2:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:SO2),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:SO2, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:SO2, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-SO2>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-SO2>)
 ]
-[Fire-Air+Temperature+:
+[Wildfire-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:Air+Temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Air+Temperature+, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Air+Temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-Air+Temperature+>)
 ]
-[Fire-CO:
+[Wildfire-CO:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
 (?variable dd:measurement ddmeasurement:CO),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:CO, ?variable)
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire ,ddmeasurement:CO, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-CO>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Wildfire-CO>)
 ]
 
 
