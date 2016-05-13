@@ -12,8 +12,8 @@ with pd.ExcelFile('X Applicability to Phenomena from experts.xlsx') as xls:
 #print(Rules['Spatial_Resolution'])
 #print(Rules['Measurement']['Sensible Heat Flux'])
 #measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture']
-measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture','Precipitation','AOD','Air Pressure ','Air Moisture','Ozone','SO2','air temperature ','CO']
-events = ['Hurricane','TropicalStorm','VolcanicEruption','Flood','Fire','DustStorm','Drought']
+measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture','Precipitation','Aerosol Optical Depth','Air Pressure ','Atmospheric Moisture','Ozone','SO2','Air Temperature ','CO']
+events = ['Hurricane','TropicalStorm','VolcanicEruption','Flood','Wildfire','DustStorm','Drought']
 
 def fun(i,x,sheetname):
     #try:
@@ -57,8 +57,9 @@ f.write('@prefix dd: <http://www.purl.org/twc/ns/darkdata#>.'+'\n'+
     '@prefix ddmeasurement: <http://darkdata.tw.rpi.edu/data/measurement/>.'+"\n")
 
 sheetname1 = 'Measurement_Li'
-try:
-    for i in range(0,len(events)):
+
+for i in range(0,len(events)):
+    try:
         f.write("\n"+"#"+events[i]+"\n")
         for j in range(0,len(measurements)):
             f.write("["+events[i]+"-"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+":"+"\n")
@@ -75,8 +76,8 @@ try:
             f.write("(?assertion dd:basisForAssertion <urn:rule/measurement/"+events[i]+"-"+str(Rules[sheetname1][measurements[j]].name).replace(' ','+')+">"+")"+"\n"+"]"+"\n")
 
         f.write('\n')
-except KeyError:
-    print("didnt work")
+    except KeyError:
+        print("didnt work"+events[i])
 f.close()
 
 

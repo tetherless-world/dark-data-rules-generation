@@ -14,7 +14,7 @@ with pd.ExcelFile('X Applicability to Phenomena from experts.xlsx') as xls:
 #print(Rules['Measurement'])
 
 spatialRes = ['2 x 2.5 deg.','1.0 x 1.25 deg.','1 x 1.25 deg.','0.5 x 0.625 deg.','0.125 deg.','1 deg.','0.1 deg.','0.667 x 1.25 deg.','0.5 deg.','5000 m','0.05 deg.','5600 m','0.25 deg.','0.5 x 0.667 deg.','1.25 deg.']
-events = ['Hurricane','TropicalStorm','VolcanicEruption','Flood','Fire','DustStorm','Drought']
+events = ['Hurricane','TropicalStorm','VolcanicEruption','Flood','Wildfire','DustStorm','Drought']
 
 def fun(i,x,sheetname):
 
@@ -64,8 +64,8 @@ for i in range(0,len(events)):
         f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
         "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:spatialResolution ddspatial:"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+"),"+"\n"+
-        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"ddspatial:"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+" ,?variable)" +"\n"+
+        "(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+">),"+"\n"+
+        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"<http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+"> ,?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
         "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"
@@ -88,8 +88,8 @@ for i in range(0,len(events)):
         f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
         "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:spatialResolution ddspatial:"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+"),"+"\n"+
-        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"ddspatial:"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+" ,?variable)" +"\n"+
+        "(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+">),"+"\n"+
+        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"<http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+"> ,?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
         "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"

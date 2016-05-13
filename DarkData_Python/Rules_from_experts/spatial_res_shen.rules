@@ -6,8 +6,8 @@
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:2+x+2.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -19,8 +19,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:2+x+2.5+deg. 
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.0+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1.0+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -32,8 +32,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1.0+x+1.25+de
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -45,8 +45,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1+x+1.25+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.625+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+x+0.625+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -58,8 +58,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+x+0.625+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.125+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.125+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -71,8 +71,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.125+deg. ,?
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -84,8 +84,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1+deg. ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -97,8 +97,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.1+deg. ,?va
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.667+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.667+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -110,8 +110,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.667+x+1.25+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -123,8 +123,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+deg. ,?va
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5000+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:5000+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -136,8 +136,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:5000+m ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.05+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.05+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -149,8 +149,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.05+deg. ,?v
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5600+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:5600+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -162,8 +162,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:5600+m ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -175,8 +175,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.25+deg. ,?v
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.667+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+x+0.667+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -188,8 +188,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:0.5+x+0.667+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -204,8 +204,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane, ddspatial:1.25+deg. ,?v
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:2+x+2.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -217,8 +217,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:2+x+2.5+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.0+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1.0+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -230,8 +230,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1.0+x+1.2
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -243,8 +243,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1+x+1.25+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.625+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+x+0.625+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -256,8 +256,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+x+0.6
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.125+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.125+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -269,8 +269,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.125+deg
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -282,8 +282,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1+deg. ,?
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -295,8 +295,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.1+deg. 
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.667+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.667+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -308,8 +308,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.667+x+1
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -321,8 +321,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+deg. 
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5000+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:5000+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -334,8 +334,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:5000+m ,?
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.05+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.05+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -347,8 +347,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.05+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5600+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:5600+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -360,8 +360,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:5600+m ,?
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -373,8 +373,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.25+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.667+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+x+0.667+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -386,8 +386,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:0.5+x+0.6
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -402,8 +402,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm, ddspatial:1.25+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:2+x+2.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -415,8 +415,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:2+x+2.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.0+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1.0+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -428,8 +428,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1.0+x+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -441,8 +441,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1+x+1.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.625+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+x+0.625+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -454,8 +454,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+x+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.125+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.125+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -467,8 +467,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.125+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -480,8 +480,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -493,8 +493,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.1+de
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.667+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.667+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -506,8 +506,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.667+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -519,8 +519,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+de
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5000+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:5000+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -532,8 +532,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:5000+m
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.05+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.05+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -545,8 +545,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.05+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5600+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:5600+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -558,8 +558,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:5600+m
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -571,8 +571,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.25+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.667+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+x+0.667+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -584,8 +584,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:0.5+x+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -600,8 +600,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption, ddspatial:1.25+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:2+x+2.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -613,8 +613,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:2+x+2.5+deg. ,?va
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.0+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1.0+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -626,8 +626,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1.0+x+1.25+deg. ,
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -639,8 +639,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1+x+1.25+deg. ,?v
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.625+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+x+0.625+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -652,8 +652,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+x+0.625+deg. 
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.125+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.125+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -665,8 +665,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.125+deg. ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -678,8 +678,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1+deg. ,?variable
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -691,8 +691,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.1+deg. ,?variab
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.667+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.667+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -704,8 +704,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.667+x+1.25+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -717,8 +717,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+deg. ,?variab
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5000+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:5000+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -730,8 +730,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:5000+m ,?variable
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.05+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.05+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -743,8 +743,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.05+deg. ,?varia
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5600+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:5600+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -756,8 +756,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:5600+m ,?variable
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -769,8 +769,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.25+deg. ,?varia
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.667+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+x+0.667+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -782,8 +782,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:0.5+x+0.667+deg. 
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -793,201 +793,201 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood, ddspatial:1.25+deg. ,?varia
 ]
 
 
-#Fire
-[Fire-2+x+2.5+deg.:
+#Wildfire
+[Wildfire-2+x+2.5+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:2+x+2.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:negative_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-2+x+2.5+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-2+x+2.5+deg.>)
 ]
-[Fire-1.0+x+1.25+deg.:
+[Wildfire-1.0+x+1.25+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.0+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1.0+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1.0+x+1.25+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-1.0+x+1.25+deg.>)
 ]
-[Fire-1+x+1.25+deg.:
+[Wildfire-1+x+1.25+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1+x+1.25+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-1+x+1.25+deg.>)
 ]
-[Fire-0.5+x+0.625+deg.:
+[Wildfire-0.5+x+0.625+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.625+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.5+x+0.625+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.5+x+0.625+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.5+x+0.625+deg.>)
 ]
-[Fire-0.125+deg.:
+[Wildfire-0.125+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.125+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.125+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.125+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.125+deg.>)
 ]
-[Fire-1+deg.:
+[Wildfire-1+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-1+deg.>)
 ]
-[Fire-0.1+deg.:
+[Wildfire-0.1+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.1+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.1+deg.>)
 ]
-[Fire-0.667+x+1.25+deg.:
+[Wildfire-0.667+x+1.25+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.667+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.667+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.667+x+1.25+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.667+x+1.25+deg.>)
 ]
-[Fire-0.5+deg.:
+[Wildfire-0.5+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.5+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.5+deg.>)
 ]
-[Fire-5000+m:
+[Wildfire-5000+m:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5000+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:5000+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-5000+m>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-5000+m>)
 ]
-[Fire-0.05+deg.:
+[Wildfire-0.05+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.05+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.05+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.05+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.05+deg.>)
 ]
-[Fire-5600+m:
+[Wildfire-5600+m:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5600+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:5600+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-5600+m>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-5600+m>)
 ]
-[Fire-0.25+deg.:
+[Wildfire-0.25+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.25+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.25+deg.>)
 ]
-[Fire-0.5+x+0.667+deg.:
+[Wildfire-0.5+x+0.667+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.667+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:0.5+x+0.667+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-0.5+x+0.667+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-0.5+x+0.667+deg.>)
 ]
-[Fire-1.25+deg.:
+[Wildfire-1.25+deg.:
 (?candidate dd:candidateEvent ?event),
-(?event rdf:type dd:Fire),
+(?event rdf:type dd:Wildfire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Wildfire, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/spatial_res/Fire-1.25+deg.>)
+(?assertion dd:basisForAssertion <urn:rule/spatial_res/Wildfire-1.25+deg.>)
 ]
 
 
@@ -996,8 +996,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire, ddspatial:1.25+deg. ,?variab
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:2+x+2.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1009,8 +1009,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:2+x+2.5+deg. 
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.0+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1.0+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1022,8 +1022,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1.0+x+1.25+de
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1035,8 +1035,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1+x+1.25+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.625+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+x+0.625+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1048,8 +1048,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+x+0.625+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.125+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.125+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1061,8 +1061,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.125+deg. ,?
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1074,8 +1074,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1+deg. ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1087,8 +1087,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.1+deg. ,?va
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.667+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.667+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1100,8 +1100,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.667+x+1.25+
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1113,8 +1113,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+deg. ,?va
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5000+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:5000+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1126,8 +1126,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:5000+m ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.05+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.05+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1139,8 +1139,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.05+deg. ,?v
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5600+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:5600+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1152,8 +1152,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:5600+m ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1165,8 +1165,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.25+deg. ,?v
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.667+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+x+0.667+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1178,8 +1178,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:0.5+x+0.667+d
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1194,8 +1194,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm, ddspatial:1.25+deg. ,?v
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:2+x+2.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:2+x+2.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/2+x+2.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1207,8 +1207,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:2+x+2.5+deg. ,?
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.0+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1.0+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.0+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1220,8 +1220,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1.0+x+1.25+deg.
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1233,8 +1233,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1+x+1.25+deg. ,
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.625+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+x+0.625+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.625+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1246,8 +1246,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+x+0.625+deg
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.125+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.125+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.125+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1259,8 +1259,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.125+deg. ,?va
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1272,8 +1272,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1+deg. ,?variab
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.1+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.1+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.1+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1285,8 +1285,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.1+deg. ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.667+x+1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.667+x+1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.667+x+1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1298,8 +1298,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.667+x+1.25+de
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1311,8 +1311,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+deg. ,?vari
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5000+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:5000+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5000+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1324,8 +1324,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:5000+m ,?variab
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.05+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.05+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.05+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1337,8 +1337,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.05+deg. ,?var
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:5600+m),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:5600+m ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/5600+m> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1350,8 +1350,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:5600+m ,?variab
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1363,8 +1363,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.25+deg. ,?var
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:0.5+x+0.667+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+x+0.667+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/0.5+x+0.667+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
@@ -1376,8 +1376,8 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:0.5+x+0.667+deg
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:spatialResolution ddspatial:1.25+deg.),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought, ddspatial:1.25+deg. ,?variable)
+(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.>),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought, <http://darkdata.tw.rpi.edu/data/spatial-resolution/1.25+deg.> ,?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
