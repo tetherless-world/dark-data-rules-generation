@@ -12,7 +12,7 @@ with pd.ExcelFile('X Applicability to Phenomena from experts.xlsx') as xls:
 #print(Rules['Spatial_Resolution'])
 #print(Rules['Measurement']['Sensible Heat Flux'])
 #measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture']
-measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture','Precipitation','AOD','Air Pressure ','Air Moisture','Ozone','SO2','air temperature ','CO']
+measurements = ['Sensible Heat Flux','Wind Stress Direction','Latent Heat Flux','Wind','Albedo','Wind Velocity','Dust','NO2','CO2','Incident Radiation','Ground Heat','Statistics','Geopotential','Soil Temperature','Heat Flux','Soil Moisture','Precipitation','Aerosol Optical Depth','Air Pressure ','Atmospheric Moisture','Ozone','SO2','Air Temperature ','CO']
 events = ['Hurricane','TropicalStorm','VolcanicEruption','Flood','Fire','DustStorm','Drought']
 
 def fun(i,x,sheetname):

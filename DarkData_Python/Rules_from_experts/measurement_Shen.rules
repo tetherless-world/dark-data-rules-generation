@@ -223,18 +223,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Precipita
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Precipitation>)
 ]
-[Hurricane-AOD:
+[Hurricane-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:AOD),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:AOD, ?variable)
+(?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-AOD>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Aerosol+Optical+Depth>)
 ]
 [Hurricane-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
@@ -249,18 +249,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Air+Press
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Air+Pressure+>)
 ]
-[Hurricane-Air+Moisture:
+[Hurricane-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:Air+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Air+Moisture, ?variable)
+(?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Air+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Atmospheric+Moisture>)
 ]
 [Hurricane-Ozone:
 (?candidate dd:candidateEvent ?event),
@@ -288,18 +288,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:SO2, ?var
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-SO2>)
 ]
-[Hurricane-air+temperature+:
+[Hurricane-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Hurricane),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:air+temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:air+temperature+, ?variable)
+(?variable dd:measurement ddmeasurement:Air+Temperature+),
+makeSkolem(?assertion, ?candidate, ?event, dd:Hurricane ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-air+temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Hurricane-Air+Temperature+>)
 ]
 [Hurricane-CO:
 (?candidate dd:candidateEvent ?event),
@@ -538,18 +538,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Preci
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Precipitation>)
 ]
-[TropicalStorm-AOD:
+[TropicalStorm-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:AOD),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:AOD, ?variable)
+(?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-AOD>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Aerosol+Optical+Depth>)
 ]
 [TropicalStorm-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
@@ -564,18 +564,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Air+P
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Air+Pressure+>)
 ]
-[TropicalStorm-Air+Moisture:
+[TropicalStorm-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:Air+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Air+Moisture, ?variable)
+(?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Air+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Atmospheric+Moisture>)
 ]
 [TropicalStorm-Ozone:
 (?candidate dd:candidateEvent ?event),
@@ -603,18 +603,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:SO2, 
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-SO2>)
 ]
-[TropicalStorm-air+temperature+:
+[TropicalStorm-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:TropicalStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:air+temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:air+temperature+, ?variable)
+(?variable dd:measurement ddmeasurement:Air+Temperature+),
+makeSkolem(?assertion, ?candidate, ?event, dd:TropicalStorm ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-air+temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/TropicalStorm-Air+Temperature+>)
 ]
 [TropicalStorm-CO:
 (?candidate dd:candidateEvent ?event),
@@ -853,18 +853,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Pr
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Precipitation>)
 ]
-[VolcanicEruption-AOD:
+[VolcanicEruption-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:AOD),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:AOD, ?variable)
+(?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-AOD>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Aerosol+Optical+Depth>)
 ]
 [VolcanicEruption-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
@@ -879,18 +879,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Ai
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Air+Pressure+>)
 ]
-[VolcanicEruption-Air+Moisture:
+[VolcanicEruption-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:Air+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Air+Moisture, ?variable)
+(?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Air+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Atmospheric+Moisture>)
 ]
 [VolcanicEruption-Ozone:
 (?candidate dd:candidateEvent ?event),
@@ -918,18 +918,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:SO
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-SO2>)
 ]
-[VolcanicEruption-air+temperature+:
+[VolcanicEruption-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:VolcanicEruption),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:air+temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:air+temperature+, ?variable)
+(?variable dd:measurement ddmeasurement:Air+Temperature+),
+makeSkolem(?assertion, ?candidate, ?event, dd:VolcanicEruption ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-air+temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/VolcanicEruption-Air+Temperature+>)
 ]
 [VolcanicEruption-CO:
 (?candidate dd:candidateEvent ?event),
@@ -1168,18 +1168,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Precipitation
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Precipitation>)
 ]
-[Flood-AOD:
+[Flood-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:AOD),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:AOD, ?variable)
+(?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Flood-AOD>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Aerosol+Optical+Depth>)
 ]
 [Flood-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
@@ -1194,18 +1194,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Air+Pressure+
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Air+Pressure+>)
 ]
-[Flood-Air+Moisture:
+[Flood-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:Air+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Air+Moisture, ?variable)
+(?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Air+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Atmospheric+Moisture>)
 ]
 [Flood-Ozone:
 (?candidate dd:candidateEvent ?event),
@@ -1233,18 +1233,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:SO2, ?variabl
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Flood-SO2>)
 ]
-[Flood-air+temperature+:
+[Flood-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Flood),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:air+temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:air+temperature+, ?variable)
+(?variable dd:measurement ddmeasurement:Air+Temperature+),
+makeSkolem(?assertion, ?candidate, ?event, dd:Flood ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Flood-air+temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Flood-Air+Temperature+>)
 ]
 [Flood-CO:
 (?candidate dd:candidateEvent ?event),
@@ -1483,18 +1483,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Precipitation,
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Precipitation>)
 ]
-[Fire-AOD:
+[Fire-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:AOD),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:AOD, ?variable)
+(?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-AOD>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Aerosol+Optical+Depth>)
 ]
 [Fire-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
@@ -1509,18 +1509,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Air+Pressure+,
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Air+Pressure+>)
 ]
-[Fire-Air+Moisture:
+[Fire-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:Air+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Air+Moisture, ?variable)
+(?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Air+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Atmospheric+Moisture>)
 ]
 [Fire-Ozone:
 (?candidate dd:candidateEvent ?event),
@@ -1548,18 +1548,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:SO2, ?variable
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Fire-SO2>)
 ]
-[Fire-air+temperature+:
+[Fire-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Fire),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:air+temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:air+temperature+, ?variable)
+(?variable dd:measurement ddmeasurement:Air+Temperature+),
+makeSkolem(?assertion, ?candidate, ?event, dd:Fire ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-air+temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Fire-Air+Temperature+>)
 ]
 [Fire-CO:
 (?candidate dd:candidateEvent ?event),
@@ -1798,18 +1798,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Precipita
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Precipitation>)
 ]
-[DustStorm-AOD:
+[DustStorm-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:AOD),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:AOD, ?variable)
+(?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-AOD>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Aerosol+Optical+Depth>)
 ]
 [DustStorm-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
@@ -1824,18 +1824,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Air+Press
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Air+Pressure+>)
 ]
-[DustStorm-Air+Moisture:
+[DustStorm-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:Air+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Air+Moisture, ?variable)
+(?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:some_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Air+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Atmospheric+Moisture>)
 ]
 [DustStorm-Ozone:
 (?candidate dd:candidateEvent ?event),
@@ -1863,18 +1863,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:SO2, ?var
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-SO2>)
 ]
-[DustStorm-air+temperature+:
+[DustStorm-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:DustStorm),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:air+temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:air+temperature+, ?variable)
+(?variable dd:measurement ddmeasurement:Air+Temperature+),
+makeSkolem(?assertion, ?candidate, ?event, dd:DustStorm ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-air+temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/DustStorm-Air+Temperature+>)
 ]
 [DustStorm-CO:
 (?candidate dd:candidateEvent ?event),
@@ -2113,18 +2113,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Precipitati
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Precipitation>)
 ]
-[Drought-AOD:
+[Drought-Aerosol+Optical+Depth:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:AOD),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:AOD, ?variable)
+(?variable dd:measurement ddmeasurement:Aerosol+Optical+Depth),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Aerosol+Optical+Depth, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:slight_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Drought-AOD>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Aerosol+Optical+Depth>)
 ]
 [Drought-Air+Pressure+:
 (?candidate dd:candidateEvent ?event),
@@ -2139,18 +2139,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Air+Pressur
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Air+Pressure+>)
 ]
-[Drought-Air+Moisture:
+[Drought-Atmospheric+Moisture:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:Air+Moisture),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Air+Moisture, ?variable)
+(?variable dd:measurement ddmeasurement:Atmospheric+Moisture),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Atmospheric+Moisture, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:strong_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Air+Moisture>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Atmospheric+Moisture>)
 ]
 [Drought-Ozone:
 (?candidate dd:candidateEvent ?event),
@@ -2178,18 +2178,18 @@ makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:SO2, ?varia
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
 (?assertion dd:basisForAssertion <urn:rule/measurement/Drought-SO2>)
 ]
-[Drought-air+temperature+:
+[Drought-Air+Temperature+:
 (?candidate dd:candidateEvent ?event),
 (?event rdf:type dd:Drought),
 (?candidate dd:candidateVariable ?variable),
-(?variable dd:measurement ddmeasurement:air+temperature+),
-makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:air+temperature+, ?variable)
+(?variable dd:measurement ddmeasurement:Air+Temperature+),
+makeSkolem(?assertion, ?candidate, ?event, dd:Drought ,ddmeasurement:Air+Temperature+, ?variable)
 ->
 (?candidate dd:compatibilityAssertion ?assertion),
 (?assertion rdf:type dd:CompatibilityAssertion),
 (?assertion dd:compatibilityValue dd:indifferent_compatibility),
 (?assertion dd:assertionConfidence "0.5"^^xsd:double),
-(?assertion dd:basisForAssertion <urn:rule/measurement/Drought-air+temperature+>)
+(?assertion dd:basisForAssertion <urn:rule/measurement/Drought-Air+Temperature+>)
 ]
 [Drought-CO:
 (?candidate dd:candidateEvent ?event),
