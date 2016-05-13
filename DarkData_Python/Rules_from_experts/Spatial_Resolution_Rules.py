@@ -64,8 +64,8 @@ for i in range(0,len(events)):
         f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
         "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:spatialResolution ddspatial:"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+"),"+"\n"+
-        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"ddspatial:"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+" ,?variable)" +"\n"+
+        "(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+">),"+"\n"+
+        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"<http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname1][spatialRes[j]].name).replace(' ','+')+"> ,?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
         "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"
@@ -88,8 +88,8 @@ for i in range(0,len(events)):
         f.write("(?candidate dd:candidateEvent ?event),"+"\n"+
         "(?event rdf:type dd:"+events[i]+"),"+"\n"+
         "(?candidate dd:candidateVariable ?variable),"+"\n"+
-        "(?variable dd:spatialResolution ddspatial:"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+"),"+"\n"+
-        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"ddspatial:"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+" ,?variable)" +"\n"+
+        "(?variable dd:spatialResolution <http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+">),"+"\n"+
+        "makeSkolem(?assertion, ?candidate, ?event, dd:"+events[i]+", "+"<http://darkdata.tw.rpi.edu/data/spatial-resolution/"+str(Rules[sheetname2][spatialRes[j]].name).replace(' ','+')+"> ,?variable)" +"\n"+
         "->"+"\n"+
         "(?candidate dd:compatibilityAssertion ?assertion),"+"\n"+
         "(?assertion rdf:type dd:CompatibilityAssertion),"+"\n"
